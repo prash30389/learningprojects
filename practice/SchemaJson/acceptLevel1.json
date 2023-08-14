@@ -1,0 +1,24 @@
+{
+   "claimNumber":"",
+   "policyNumber":"",
+   "decision":"ACCEPT",
+   "reason":"Withdrawal_by_Claimant",
+   "subReason":"ACCEPT",
+   "comment":"Comment..",
+   "actionBy":"13853",
+   "actionByRole":"OPS_USER",
+   "requestedOn":null,
+   "claimCaseSummaryInfo":{
+      "claimNumber":"",
+      "policyNumber":"",
+      "actionDetails":{
+         "userId":"13853",
+         "userRole":"Ops User",
+         "userName":"Hassan  Mohideen",
+         "actionTaken":"Decision : Accept , Sub Reason : Accept",
+         "actionTakenDate":"2020-08-14T09:36:09.376Z",
+         "actionType":"CLAIM_DECISION",
+         "userComments":"hh"
+      }
+   }
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-27T18:58:56 IST" name="Default suite" finished-at="2020-10-27T18:58:56 IST" duration-ms="388">
+    <groups>
+    </groups>
+    <test started-at="2020-10-27T18:58:56 IST" name="Default test" finished-at="2020-10-27T18:58:56 IST" duration-ms="388">
+      <class name="TestNGExercises.DataProviderANDParameter">
+        <test-method is-config="true" signature="PreConditionBrowser()[pri:0, instance:TestNGExercises.DataProviderANDParameter@151335cb]" started-at="2020-10-27T18:58:56 IST" name="PreConditionBrowser" finished-at="2020-10-27T18:58:56 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreConditionBrowser -->
+        <test-method signature="getTitle()[pri:1, instance:TestNGExercises.DataProviderANDParameter@151335cb]" started-at="2020-10-27T18:58:56 IST" name="getTitle" finished-at="2020-10-27T18:58:56 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method signature="MainActionValid(java.lang.String, java.lang.String)[pri:2, instance:TestNGExercises.DataProviderANDParameter@151335cb]" started-at="2020-10-27T18:58:56 IST" name="MainActionValid" data-provider="getData" finished-at="2020-10-27T18:58:56 IST" depends-on-methods="TestNGExercises.DataProviderANDParameter.getTitle" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainActionValid -->
+        <test-method signature="MainActionValid(java.lang.String, java.lang.String)[pri:2, instance:TestNGExercises.DataProviderANDParameter@151335cb]" started-at="2020-10-27T18:58:56 IST" name="MainActionValid" data-provider="getData" finished-at="2020-10-27T18:58:56 IST" depends-on-methods="TestNGExercises.DataProviderANDParameter.getTitle" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainActionValid -->
+        <test-method is-config="true" signature="PostCondition()[pri:0, instance:TestNGExercises.DataProviderANDParameter@151335cb]" started-at="2020-10-27T18:58:56 IST" name="PostCondition" finished-at="2020-10-27T18:58:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+      </class> <!-- TestNGExercises.DataProviderANDParameter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

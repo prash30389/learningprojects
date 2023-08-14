@@ -1,0 +1,76 @@
+{
+    "proposalNumber": null,
+    "insured": {
+        "firstName": "Smith Flipkart",
+        "lastName": null,
+        "gender": "Male",
+        "dateOfBirth": "1985-06-19",
+        "addresses": [
+            {
+                "addressType": "RESIDENCE",
+                "addressLine1": "WO SUVLERUMBU DINDIGUL",
+                "addressLine2": null,
+                "addressLine3": null,
+                "addressLine4": null,
+                "country": "India",
+                "state": "Karnataka",
+                "city": null,
+                "pincode": "500044"
+            }
+        ],
+        "contacts": [
+            {
+                "contactType": "MOBILE",
+                "contactInfo": "7977915929",
+                "primaryContact": false
+            },
+            {
+                "contactType": "EMAIL",
+                "contactInfo": "dhasalswapnil88@yahoo.com",
+                "primaryContact": false
+            }
+        ],
+        "emailId": "dhasalswapnil88@yahoo.com",
+        "mobile": "7977915929"
+    },
+    "paymentInfo": {
+        "transactionId": "52122458210007",
+        "siOpted": true,
+        "vendor": "FLIPKART"
+    },
+    "policyInfo": {
+        "masterPolicyNumber": "FLKGQ0000000004",
+        "policyNumber": "FLKG00000000007",
+        "purchaseDateTime": "2020-01-10",
+        "startDate": "2020-01-10",
+        "coiDispatchDateTime": "2020-01-10",
+        "planCode": "FPK-0001",
+        "premium": {
+            "paymentFrequency": "YEARLY",
+            "initialPremium": 129
+        },
+        "coverages": [
+            {
+                "code": "FPK-0001-DB",
+                "sumAssured": 100000
+            }
+        ],
+        "nominees": [
+            {
+                "partyId": null,
+                "firstName": "Simmi Jones",
+                "middleName": null,
+                "lastName": null,
+                "gender": null,
+                "dateOfBirth": "2001-06-11",
+                "relationOfNominee": "WIFE",
+                "nominationPercentage": 100,
+                "address": null,
+                "emailId": null,
+                "mobile": null,
+                "age": 18
+            }
+        ],
+        "documents": []
+    }
+}

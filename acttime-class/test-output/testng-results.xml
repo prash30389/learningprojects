@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite Execution startsWed Mar 04 12:48:23 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[chromelaunched and url navigated]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer Script Execution startsWed Mar 04 12:48:43 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Customer "GE HealthCare" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer Script Execution success]]>
+    </line>
+    <line>
+      <![CDATA[browser closed]]>
+    </line>
+    <line>
+      <![CDATA[chromelaunched and url navigated]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomer Script Execution startsWed Mar 04 12:49:23 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Customer has been successfully deleted.]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomer Script Execution success]]>
+    </line>
+    <line>
+      <![CDATA[browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68051" started-at="2020-03-04T07:18:23Z" finished-at="2020-03-04T07:19:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68051" started-at="2020-03-04T07:18:23Z" finished-at="2020-03-04T07:19:31Z">
+      <class name="com.acttime.scripts.TaskTest">
+        <test-method status="PASS" signature="PreCondition(java.lang.String, java.lang.String)[pri:0, instance:com.acttime.scripts.TaskTest@647e447]" name="PreCondition" is-config="true" duration-ms="19270" started-at="2020-03-04T07:18:23Z" finished-at="2020-03-04T07:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chromelaunched and url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.acttime.scripts.TaskTest@647e447]" name="createCustomer" duration-ms="26409" started-at="2020-03-04T07:18:43Z" finished-at="2020-03-04T07:19:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createCustomer Script Execution startsWed Mar 04 12:48:43 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[Customer "GE HealthCare" has been successfully created.]]>
+            </line>
+            <line>
+              <![CDATA[createCustomer Script Execution success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acttime.scripts.TaskTest@647e447]" name="postCondition" is-config="true" duration-ms="708" started-at="2020-03-04T07:19:09Z" finished-at="2020-03-04T07:19:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="PreCondition(java.lang.String, java.lang.String)[pri:0, instance:com.acttime.scripts.TaskTest@647e447]" name="PreCondition" is-config="true" duration-ms="12943" started-at="2020-03-04T07:19:10Z" finished-at="2020-03-04T07:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chromelaunched and url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="deleteCustomer()[pri:0, instance:com.acttime.scripts.TaskTest@647e447]" name="deleteCustomer" duration-ms="8353" started-at="2020-03-04T07:19:23Z" depends-on-methods="com.acttime.scripts.TaskTest.createCustomer" finished-at="2020-03-04T07:19:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteCustomer Script Execution startsWed Mar 04 12:49:23 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[Customer has been successfully deleted.]]>
+            </line>
+            <line>
+              <![CDATA[deleteCustomer Script Execution success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acttime.scripts.TaskTest@647e447]" name="postCondition" is-config="true" duration-ms="122" started-at="2020-03-04T07:19:31Z" finished-at="2020-03-04T07:19:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.acttime.scripts.TaskTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

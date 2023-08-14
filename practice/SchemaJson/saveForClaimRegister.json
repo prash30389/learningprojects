@@ -1,0 +1,37 @@
+{
+   "claimNumber":"",
+   "assessmentNotes":null,
+   "benefitsCalculationDetail":{
+      "premiumReceivedTillEvent":501,
+      "premiumReceivedPostEvent":0,
+      "outstandingPremium":0,
+      "survivalBenefitPaid":null,
+      "survivalBenefitPayable":null,
+      "incomeBenefit":7500000,
+      "wopAmount":null,
+      "wopCiPremiumAmount":null,
+      "otherDeductions":0,
+      "otherBenefits":0,
+      "grossClaimBenefitPayable":15000000
+   },
+   "cmoOpinionDetail":null,
+   "investigationDetail":null,
+   "legalOpinionDetail":null,
+   "reinsuranceDetail":null,
+   "reinsurerOpinionDetail":null,
+   "reviewAssessmentDetail":null,
+   "underWritingOpinionDetail":null,
+   "claimCaseSummaryInfo":{
+      "claimNumber":"",
+      "policyNumber":"",
+      "actionDetails":{
+         "userId":"13853",
+         "userRole":"Ops User",
+         "userName":"Hassan  Mohideen",
+         "actionTaken":"Benefit calculation saved.",
+         "actionTakenDate":"2020-08-14T06:13:05.521Z",
+         "actionType":"CLAIM_REVIEW_ASSESMENT",
+         "userComments":"Benefit calculation detail saved."
+      }
+   }
+}

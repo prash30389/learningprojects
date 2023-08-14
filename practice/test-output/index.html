@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Prashant.s\AppData\Local\Temp\testng-eclipse-1415958180\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 2 failed,  1 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="SurrenderRiderPolicyForNewBusinessUsingRazorPay">SurrenderRiderPolicyForNewBusinessUsingRazorPay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="createAddRiderPolicyForNewBusinessUsingRazorPay">createAddRiderPolicyForNewBusinessUsingRazorPay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyPaymentEventsRazorpaySR">verifyPaymentEventsRazorpaySR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="SurrenderPolicyForNewBusinessUsingRazorPay">SurrenderPolicyForNewBusinessUsingRazorPay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyMandatoryFieldsInPaymentRequestSP">verifyMandatoryFieldsInPaymentRequestSP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyMandatoryFieldsInPaymentRequestSR">verifyMandatoryFieldsInPaymentRequestSR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyPaymentEventsRazorpaySP">verifyPaymentEventsRazorpaySP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyRequestAmountCannotZeroForCCSIMandateTypeSP">verifyRequestAmountCannotZeroForCCSIMandateTypeSP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyRequestAmountCannotZeroForCCSIMandateTypeSR">verifyRequestAmountCannotZeroForCCSIMandateTypeSR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyVendorCodeNotEmptySP">verifyVendorCodeNotEmptySP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="StandardPayinPolicies.Rider" class="method navigator-link" hash-for-method="verifyVendorCodeNotEmptySR">verifyVendorCodeNotEmptySR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">StandardPayinPolicies.Rider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SurrenderRiderPolicyForNewBusinessUsingRazorPay">
+                  </a> <!-- SurrenderRiderPolicyForNewBusinessUsingRazorPay -->
+                  <span class="method-name">SurrenderRiderPolicyForNewBusinessUsingRazorPay</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: E:\eclipse-workspace\practice\SchemeJson_Retail\rider.json (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:212)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:154)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:109)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at practice.utility.ProposalRequest.SurrenderRiderCode(ProposalRequest.java:808)
+	at StandardPayinPolicies.Rider.SurrenderRiderPolicyForNewBusinessUsingRazorPay(Rider.java:236)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Create Add Rider Policy)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAddRiderPolicyForNewBusinessUsingRazorPay">
+                  </a> <!-- createAddRiderPolicyForNewBusinessUsingRazorPay -->
+                  <span class="method-name">createAddRiderPolicyForNewBusinessUsingRazorPay</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: E:\eclipse-workspace\practice\SchemeJson_Retail\rider.json (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:212)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:154)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:109)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at practice.utility.ProposalRequest.riderCode(ProposalRequest.java:918)
+	at StandardPayinPolicies.Rider.createAddRiderPolicyForNewBusinessUsingRazorPay(Rider.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Create Add Rider Policy)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">StandardPayinPolicies.Rider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPaymentEventsRazorpaySR">
+                  </a> <!-- verifyPaymentEventsRazorpaySR -->
+                  <span class="method-name">verifyPaymentEventsRazorpaySR</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Rider.verifyPaymentEventsRazorpaySR()[pri:8, instance:StandardPayinPolicies.Rider@2b48a640] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC - To verify dynamodb events for Razorpay Payin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">StandardPayinPolicies.Rider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SurrenderPolicyForNewBusinessUsingRazorPay">
+                  </a> <!-- SurrenderPolicyForNewBusinessUsingRazorPay -->
+                  <span class="method-name">SurrenderPolicyForNewBusinessUsingRazorPay</span>
+                  <em>
+(Create Add Rider Policy)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMandatoryFieldsInPaymentRequestSP">
+                  </a> <!-- verifyMandatoryFieldsInPaymentRequestSP -->
+                  <span class="method-name">verifyMandatoryFieldsInPaymentRequestSP</span>
+                  <em>
+(TC to verify mobileNumber and email mandatory in payment request if vendor code is RAZORPAY)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMandatoryFieldsInPaymentRequestSR">
+                  </a> <!-- verifyMandatoryFieldsInPaymentRequestSR -->
+                  <span class="method-name">verifyMandatoryFieldsInPaymentRequestSR</span>
+                  <em>
+(TC to verify mobileNumber and email mandatory in payment request if vendor code is RAZORPAY)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPaymentEventsRazorpaySP">
+                  </a> <!-- verifyPaymentEventsRazorpaySP -->
+                  <span class="method-name">verifyPaymentEventsRazorpaySP</span>
+                  <em>
+(TC - To verify dynamodb events for Razorpay Payin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP">
+                  </a> <!-- verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP -->
+                  <span class="method-name">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP</span>
+                  <em>
+(TC to verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR">
+                  </a> <!-- verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR -->
+                  <span class="method-name">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR</span>
+                  <em>
+(TC to verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRequestAmountCannotZeroForCCSIMandateTypeSP">
+                  </a> <!-- verifyRequestAmountCannotZeroForCCSIMandateTypeSP -->
+                  <span class="method-name">verifyRequestAmountCannotZeroForCCSIMandateTypeSP</span>
+                  <em>
+(TC to verify request amount can not be zero other than eMandate Payment, error thrown.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRequestAmountCannotZeroForCCSIMandateTypeSR">
+                  </a> <!-- verifyRequestAmountCannotZeroForCCSIMandateTypeSR -->
+                  <span class="method-name">verifyRequestAmountCannotZeroForCCSIMandateTypeSR</span>
+                  <em>
+(TC to verify request amount can not be zero other than eMandate Payment, error thrown.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyVendorCodeNotEmptySP">
+                  </a> <!-- verifyVendorCodeNotEmptySP -->
+                  <span class="method-name">verifyVendorCodeNotEmptySP</span>
+                  <em>
+(TC to verify Error throws when Vendor Code is Empty.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyVendorCodeNotEmptySR">
+                  </a> <!-- verifyVendorCodeNotEmptySR -->
+                  <span class="method-name">verifyVendorCodeNotEmptySR</span>
+                  <em>
+(TC to verify Error throws when Vendor Code is Empty.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Prashant.s\AppData\Local\Temp\testng-eclipse-1415958180\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;StandardPayinPolicies.Rider&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Payment - Initiate Payin Rider</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SurrenderPolicyForNewBusinessUsingRazorPay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SurrenderRiderPolicyForNewBusinessUsingRazorPay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createAddRiderPolicyForNewBusinessUsingRazorPay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyMandatoryFieldsInPaymentRequestSP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyMandatoryFieldsInPaymentRequestSR</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPaymentEventsRazorpaySP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPaymentEventsRazorpaySR</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRequestAmountCannotZeroForCCSIMandateTypeSP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRequestAmountCannotZeroForCCSIMandateTypeSR</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyVendorCodeNotEmptySP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyVendorCodeNotEmptySR</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SurrenderPolicyForNewBusinessUsingRazorPay')
+data.setCell(0, 2, 'StandardPayinPolicies.Rider')
+data.setCell(0, 3, 169346);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyVendorCodeNotEmptySR')
+data.setCell(1, 2, 'StandardPayinPolicies.Rider')
+data.setCell(1, 3, 46981);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyMandatoryFieldsInPaymentRequestSR')
+data.setCell(2, 2, 'StandardPayinPolicies.Rider')
+data.setCell(2, 3, 44088);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyVendorCodeNotEmptySP')
+data.setCell(3, 2, 'StandardPayinPolicies.Rider')
+data.setCell(3, 3, 43877);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyMandatoryFieldsInPaymentRequestSP')
+data.setCell(4, 2, 'StandardPayinPolicies.Rider')
+data.setCell(4, 3, 43862);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyRequestAmountCannotZeroForCCSIMandateTypeSR')
+data.setCell(5, 2, 'StandardPayinPolicies.Rider')
+data.setCell(5, 3, 37543);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyRequestAmountCannotZeroForCCSIMandateTypeSP')
+data.setCell(6, 2, 'StandardPayinPolicies.Rider')
+data.setCell(6, 3, 37472);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR')
+data.setCell(7, 2, 'StandardPayinPolicies.Rider')
+data.setCell(7, 3, 37347);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP')
+data.setCell(8, 2, 'StandardPayinPolicies.Rider')
+data.setCell(8, 3, 37190);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyPaymentEventsRazorpaySP')
+data.setCell(9, 2, 'StandardPayinPolicies.Rider')
+data.setCell(9, 3, 5635);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createAddRiderPolicyForNewBusinessUsingRazorPay')
+data.setCell(10, 2, 'StandardPayinPolicies.Rider')
+data.setCell(10, 3, 184);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'SurrenderRiderPolicyForNewBusinessUsingRazorPay')
+data.setCell(11, 2, 'StandardPayinPolicies.Rider')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyPaymentEventsRazorpaySR')
+data.setCell(12, 2, 'StandardPayinPolicies.Rider')
+data.setCell(12, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyVendorCodeNotEmptySP</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p></span>
+                <span class="reporter-method-output"><p>Status     : 200</p></span>
+                <span class="reporter-method-output"><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></span>
+                <span class="reporter-method-output"><p>*********************Get Policy Payment amt for NB.**********************************</p></span>
+                <span class="reporter-method-output"><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></span>
+                <span class="reporter-method-output"><p>Amount to pay : 566.0</p></span>
+                <span class="reporter-method-output"><p>
+ installment Premium Returned *****
+</p></span>
+                <span class="reporter-method-output"><p>*********************Payment initiate.**********************************</p></span>
+                <span class="reporter-method-output"><p>status code   :400</p></span>
+                <span class="reporter-method-output"><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SurrenderPolicyForNewBusinessUsingRazorPay</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p></span>
+                <span class="reporter-method-output"><p>
+++++++++++ CODE method of Create Sample data for policy  ++++++++++
+</p></span>
+                <span class="reporter-method-output"><p>
+***** Sample data for USER & POLICY HOLDER Started *****
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample user name created for user 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample partyrefid created for user 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample mobile No created for user 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample DOB created for user 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample email ID created for user 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample PAN card created for user 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample user name created for policy holder 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample partyrefid created for policy Holder 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample mobile number created for policy holder 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample DOB created for policy holder 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample policy holder identityInfo created 
+</p></span>
+                <span class="reporter-method-output"><p>
+ Sample PAN card created for policy holder 
+</p></span>
+                <span class="reporter-method-output"><p>
+ policy number created 
+</p></span>
+                <span class="reporter-method-output"><p>
+ policy purchaseDateTime created 
+</p></span>
+                <span class="reporter-method-output"><p>
+ policy startDateTime created 
+</p></span>
+                <span class="reporter-method-output"><p>
+ policy dispatchDateTime created 
+</p></span>
+                <span class="reporter-method-output"><p>
+***** Sample Data for policy created *****
+</p></span>
+                <span class="reporter-method-output"><p>Status     : 200</p></span>
+                <span class="reporter-method-output"><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></span>
+                <span class="reporter-method-output"><p>*********************Get Policy Payment amt for NB.**********************************</p></span>
+                <span class="reporter-method-output"><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></span>
+                <span class="reporter-method-output"><p>Amount to pay : 615.0</p></span>
+                <span class="reporter-method-output"><p>
+ installment Premium Returned *****
+</p></span>
+                <span class="reporter-method-output"><p>*********************Payment initiate.**********************************</p></span>
+                <span class="reporter-method-output"><p>status code   :200</p></span>
+                <span class="reporter-method-output"><p>Initiate Payment response body	: {"payment":{"id":262621,"businessId":"NBTR1412200000262621","paymentDateTime":null,"amount":1115.0,"vendorPayment":{"vendorCode":"RAZORPAY","vendorOrderId":"order_GCx3c5ZvcVH6ES","paymentId":null},"status":"INITIATED","paymentMode":null,"receiptDocId":null,"pasUpdatedOn":null,"card":null,"cheque":null,"demandDraft":null,"fundTransfer":null,"micrNumber":null,"ifscCode":null,"bankName":null,"userId":"SYSTEM","branchName":null,"branchCode":null,"transactionId":null,"processInstanceId":null,"accountNumber":null,"paymentMethod":"PAYMENTGATEWAY"},"payer":{"id":253092,"name":"Test User","email":"ankitk@360logica.com","mobileNumber":"6660060198","policyNumber":"ALI0QAP13673456","vendorPayer":{"vendorCode":"RAZORPAY","payerId":"cust_EpvAB2ochO5IEb"},"status":null},"bill":{"id":350737,"policyNumber":"ALI0QAP13673456","dueDate":"2020-12-24","amount":1115.0,"type":"NB","status":"GENERATED","product":{"type":"Term","schemeCode":"ARMP0000111"},"businessId":"NBORALI0QAP1367345600350737","amountPayable":1115.0,"serviceRequestId":null,"createdOn":"2020-12-14"},"receiptDocUrl":null,"anyTimeSiRegistered":false}</p></span>
+                <span class="reporter-method-output"><p>Status Code						: 200</p></span>
+                <span class="reporter-method-output"><p>Payment initiated.</p></span>
+                <span class="reporter-method-output"><p>*********Get Mandate Status for Policy Number.*******************</p></span>
+                <span class="reporter-method-output"><p>*********************Payment checkout for New Business (NB).**********************************</p></span>
+                <span class="reporter-method-output"><p>Selected Payment Type is Card.</p></span>
+                <span class="reporter-method-output"><p>*********************Verify Payment Info for New Business (NB).**********************************</p></span>
+                <span class="reporter-method-output"><p>Final Payment done.</p></span>
+                <span class="reporter-method-output"><p>response of payment info	: {"paymentModeDescription":"Card","vendorOrderId":"order_GCx3c5ZvcVH6ES","dueDate":"2020-12-24","businessId":"NBTR1412200000262621","policyNumber":"ALI0QAP13673456","ddDate":null,"bankName":null,"ddNumber":null,"chequeNumber":null,"createdOn":"2020-12-14","isMandateRegistered":true,"paymentType":"New Business","vendorCode":"RAZORPAY","ddType":null,"id":262621,"processInstanceId":null,"amount":1115.0,"paymentReceivedDate":"2020-12-14T14:24:59.000+0000","paymentMode":"cc","branchName":null,"receiptDocId":null,"chequeDate":null,"branchCode":null,"chequeType":null,"billBusinessId":"NBORALI0QAP1367345600350737","vendorTransactionId":"pay_GCx4XRNiLxz9EE","status":"SUCCESSFUL"}</p></span>
+                <span class="reporter-method-output"><p>Manadte Registration is : true</p></span>
+                <span class="reporter-method-output"><p>Payment Mode, Due Date and Amount values are	: Card || 2020-12-24 || 1115.0</p></span>
+                <span class="reporter-method-output"><p>verify Policy is in 'INFORCE' Status for Standard decision=>ALI0QAP13673456</p></span>
+                <span class="reporter-method-output"><p>GET -> Policy Number : The status code is: 200</p></span>
+                <span class="reporter-method-output"><p>Policy status : INFORCE</p></span>
+                <span class="reporter-method-output"><p>***********Check Suspense entry for NB type.************</p></span>
+                <span class="reporter-method-output"><p>Suspense done.</p></span>
+                <span class="reporter-method-output"><p>[{"policyNumber":"ALI0QAP13673456","amount":0.00,"suspenseType":"NB"},{"policyNumber":"ALI0QAP13673456","amount":500.00,"suspenseType":"RENEWAL"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"PAYOUT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"REINSTATEMENT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"AR"}]</p></span>
+                <span class="reporter-method-output"><p>Suspense Status : 0.0 || 500.0 || 0.0 || 0.0 || 0</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyVendorCodeNotEmptySR</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p></span>
+                <span class="reporter-method-output"><p>Status     : 200</p></span>
+                <span class="reporter-method-output"><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></span>
+                <span class="reporter-method-output"><p>*********************Get Policy Payment amt for NB.**********************************</p></span>
+                <span class="reporter-method-output"><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></span>
+                <span class="reporter-method-output"><p>Amount to pay : 591.0</p></span>
+                <span class="reporter-method-output"><p>
+ installment Premium Returned *****
+</p></span>
+                <span class="reporter-method-output"><p>*********************Payment initiate.**********************************</p></span>
+                <span class="reporter-method-output"><p>status code   :400</p></span>
+                <span class="reporter-method-output"><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p></span>
+                <span class="reporter-method-output"><p>Status     : 200</p></span>
+                <span class="reporter-method-output"><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></span>
+                <span class="reporter-method-output"><p>*********************Set Policy Payment amt Zero.**********************************</p></span>
+                <span class="reporter-method-output"><p>*********************Payment initiate.**********************************</p></span>
+                <span class="reporter-method-output"><p>status code   :400</p></span>
+                <span class="reporter-method-output"><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMandatoryFieldsInPaymentRequestSP</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p></span>
+                <span class="reporter-method-output"><p>Status     : 200</p></span>
+                <span class="reporter-method-output"><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></span>
+                <span class="reporter-method-output"><p>*********************Get Policy Payment amt for NB.**********************************</p></span>
+                <span class="reporter-method-output"><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></span>
+                <span class="reporter-method-output"><p>Amount to pay : 461.0</p></span>
+                <span class="reporter-method-output"><p>
+ installment Premium Returned *****
+</p></span>
+                <span class="reporter-method-output"><p>*********************Payment initiate.**********************************</p></span>
+                <span class="reporter-method-output"><p>status code   :400</p></span>
+                <span class="reporter-method-output"><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRequestAmountCannotZeroForCCSIMandateTypeSP</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p></span>
+                <span class="reporter-method-output"><p>Status     : 200</p></span>
+                <span class="reporter-method-output"><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></span>
+                <span class="reporter-method-output"><p>*********************Set Policy Payment amt Zero.**********************************</p></span>
+                <span class="reporter-method-output"><p>*********************Payment initiate.**********************************</p></span>
+                <span class="reporter-method-output"><p>status code   :400</p></span>
+                <span class="reporter-method-output"><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMandatoryFieldsInPaymentRequestSR</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p></span>
+                <span class="reporter-method-output"><p>Status     : 200</p></span>
+                <span class="reporter-method-output"><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></span>
+                <span class="reporter-method-output"><p>*********************Get Policy Payment amt for NB.**********************************</p></span>
+                <span class="reporter-method-output"><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></span>
+                <span class="reporter-method-output"><p>Amount to pay : 566.0</p></span>
+                <span class="reporter-method-output"><p>
+ installment Premium Returned *****
+</p></span>
+                <span class="reporter-method-output"><p>*********************Payment initiate.**********************************</p></span>
+                <span class="reporter-method-output"><p>status code   :400</p></span>
+                <span class="reporter-method-output"><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRequestAmountCannotZeroForCCSIMandateTypeSR</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p></span>
+                <span class="reporter-method-output"><p>Status     : 200</p></span>
+                <span class="reporter-method-output"><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></span>
+                <span class="reporter-method-output"><p>*********************Set Policy Payment amt Zero.**********************************</p></span>
+                <span class="reporter-method-output"><p>*********************Payment initiate.**********************************</p></span>
+                <span class="reporter-method-output"><p>status code   :400</p></span>
+                <span class="reporter-method-output"><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPaymentEventsRazorpaySP</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>*************Check events in dynamodb.************</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p></span>
+                <span class="reporter-method-output"><p>Status     : 200</p></span>
+                <span class="reporter-method-output"><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></span>
+                <span class="reporter-method-output"><p>*********************Set Policy Payment amt Zero.**********************************</p></span>
+                <span class="reporter-method-output"><p>*********************Payment initiate.**********************************</p></span>
+                <span class="reporter-method-output"><p>status code   :400</p></span>
+                <span class="reporter-method-output"><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SurrenderRiderPolicyForNewBusinessUsingRazorPay</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createAddRiderPolicyForNewBusinessUsingRazorPay</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">StandardPayinPolicies.Rider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyMandatoryFieldsInPaymentRequest</span>
+                <br/>
+                <span class="ignored-method-name">verifyRequestAmountCannotGreaterThanZeroForeMandateType</span>
+                <br/>
+                <span class="ignored-method-name">verifyPaymentEventsRazorpay</span>
+                <br/>
+                <span class="ignored-method-name">verifyVendorCodeNotEmpty</span>
+                <br/>
+                <span class="ignored-method-name">verifyRequestAmountCannotZeroForCCSIMandateType</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">StandardPayinPolicies.Rider</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAddRiderPolicyForNewBusinessUsingRazorPay</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SurrenderRiderPolicyForNewBusinessUsingRazorPay</span>
+                <span class="method-start">268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPaymentEventsRazorpaySR</span>
+                <span class="method-start">273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyVendorCodeNotEmptySR</span>
+                <span class="method-start">276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMandatoryFieldsInPaymentRequestSR</span>
+                <span class="method-start">47258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRequestAmountCannotZeroForCCSIMandateTypeSR</span>
+                <span class="method-start">91348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR</span>
+                <span class="method-start">128892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SurrenderPolicyForNewBusinessUsingRazorPay</span>
+                <span class="method-start">166241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPaymentEventsRazorpaySP</span>
+                <span class="method-start">335588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyVendorCodeNotEmptySP</span>
+                <span class="method-start">341225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMandatoryFieldsInPaymentRequestSP</span>
+                <span class="method-start">385104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRequestAmountCannotZeroForCCSIMandateTypeSP</span>
+                <span class="method-start">428967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP</span>
+                <span class="method-start">466440 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

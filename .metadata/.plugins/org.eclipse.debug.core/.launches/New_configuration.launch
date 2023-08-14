@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="cucumber.eclipse.launching.localCucumberFeature">
+    <stringAttribute key="cucumber feature" value=""/>
+    <stringAttribute key="glue path" value=""/>
+    <booleanAttribute key="is html formatter?" value="true"/>
+    <booleanAttribute key="is json formatter?" value="true"/>
+    <booleanAttribute key="is junit formatter" value="true"/>
+    <booleanAttribute key="is monochrome?" value="true"/>
+    <booleanAttribute key="is pretty formatter?" value="true"/>
+    <booleanAttribute key="is progress formatter?" value="true"/>
+    <booleanAttribute key="is rerun formatter" value="true"/>
+    <booleanAttribute key="is usage formatter" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value=""/>
+</launchConfiguration>

@@ -1,0 +1,402 @@
+{
+"insured": {
+"gender": "Female",
+"mobile": "9309921163",
+"lastName": "Mustilwar",
+"firstName": "Megha",
+"fatherName": "N",
+"middleName": "A",
+"dateOfBirth": "1975-08-16",
+"identityInfo": [
+{
+"type": "PAN",
+"value": "ahgpn6934f"
+}
+],
+"maritalStatus": "SINGLE",
+"qualification": "PROFESSIONALDEGREE",
+"residenceStatus": {
+"nationality": "INDIAN",
+"residentType": "INDIAN",
+"countryOfResidence": "INDIA"
+},
+"permanentAddress": {
+"id": null,
+"city": "Mumbai",
+"state": "MH",
+"country": "India",
+"pincode": "400072",
+"addressType": "RESIDENCE",
+"addressLine1": "Pride purple park",
+"addressLine2": null,
+"addressLine3": null,
+"addressLine4": null
+},
+"professionalInfo": {
+"occupation": "SALARIED",
+"annualIncome": 1000000,
+"natureOfWork": "OFFICEWORK",
+"organizationName": "Aegon"
+},
+"politicallyExposed": false,
+"creditScoreRequired": false,
+"correspondenceAddress": {
+"id": null,
+"city": "Mumbai",
+"state": "MH",
+"country": "India",
+"pincode": "411045",
+"addressType": "RESIDENCE",
+"addressLine1": "Pride purple park",
+"addressLine2": null,
+"addressLine3": null,
+"addressLine4": null
+},
+"taxResidentOtherCountry": false,
+"emailId": "megha.m@saksoft.com",
+"partyRefId": "Megha28"
+},
+"healthInfo": {
+"height": 180,
+"weight": 80,
+"smokerType": "NON_SMOKER"
+},
+"policyInfo": {
+"pinCode": null,
+"premium": {
+"initialPremium": 7000,
+"paymentFrequency": "MONTHLY",
+"premiumPayOption": "YEAR"
+},
+"product": {
+"schemeCode": "ARMP0000111"
+},
+"nominees": [
+{
+"age": 46,
+"email": "",
+"gender": "Male",
+"mobile": null,
+"lastName": "naik",
+"appointee": {
+"name": "Name A",
+"dob": "1990-04-24T06:32:00.000+0000",
+"email": null,
+"mobile": null
+},
+"firstName": "maruti",
+"middleName": "viren",
+"dateOfBirth": "1972-11-09T00:00:00.000+0000",
+"relationOfNominee": "BROTHER",
+"nominationPercentage": 100
+}
+],
+"planCode": null,
+"coverages": [
+{
+"code": "ARMP0000111",
+"type": "BASE",
+"loading": null,
+"premium": 3277,
+"cGstAmount": 295,
+"cgstAmount": 295,
+"iGstAmount": 0,
+"igstAmount": 0,
+"sGstAmount": 295,
+"sgstAmount": 295,
+"sumAssured": 15000000,
+"coverageTerm": 20,
+"inceptionDate": "2020-01-18T03:36:39.306+0000",
+"premiumPayingTerm": 20
+}
+],
+"documents": null,
+"startDate": "2020-01-18",
+"policyType": "INDIVIDUAL",
+"discountType": "EC",
+"policyNumber": "ALII11510000395",
+"questionaire": [
+{
+"questionId": "Q_MH_ITERM_BRAIN",
+"optedAnswer": "no"
+},
+{
+"questionId": "EXTRA_QUESTION",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_CANCER",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_PD_LA_PROPERTY",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_STOMACH",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_HEART",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_PREGNANT",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_PD_LA_POLITICAL",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_KIDNEY",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_IH_DECLINED",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_PD_PH_POLITICAL",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_PD_LA_TAX",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_COMPLICATION",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_LUNG",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_OTC_MEDICATION",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_OTC_SURGERY",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_LI_ALCOHOL_QTY",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_DIABETES",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_OTC_WEIGHT",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_HEIGHT",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ICANCER_PERSISTENT",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ICANCER_SURGERY",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_STD",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ICANCER_OTHER",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ICANCER_CANCER",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ICANCER_FAMILY",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ICANCER_MENSTRUAL",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_MH_ITERM_WEIGHT",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_PD_LA_SIBLING",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_POLICY_APPLIED_AS",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_PD_PH_TAX",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_LI_NARCOTICS",
+"optedAnswer": "no"
+},
+{
+"questionId": "Q_LI_HAZARDOUS",
+"optedAnswer": "no"
+},
+{
+"optedAnswer": "no",
+"questionId": "EKS"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_ICANCER_WEIGHT"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_ID_DEBIT"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_LI_TOBACCO"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_LI_TOBACCO_QTY"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_ITERM_JOINT"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_ICANCER_BLEEDING"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_LI_ALCOHOL"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_OTC_ILLNESS"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_ITERM_FAMILY"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_ICANCER_HEIGHT"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_ICANCER_STD"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_ITERM_OTHER"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_OTC_HEIGHT"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_EDU_OccupationType"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_MH_ITERM_OTHER_INSURANCE"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_EDU_EDU"
+},
+{
+"optedAnswer": "no",
+"questionId": "Q_PERSONAL_RESIDENTSTATUS"
+}
+],
+"incomeBenefit": 50,
+"acceptanceTerm": "IOT",
+"lumpSumBenefit": 50,
+"proposerEntity": "PARTNERSHIPFIRM",
+"purchaseDateTime": "2020-01-18T03:36:39.306+0000",
+"relationToHolder": "OTHER",
+"masterPolicyNumber": null,
+"coiDispatchDateTime": "2020-01-18T03:36:39.306+0000"
+},
+"sourceInfo": {
+"id": "10008563",
+"type": "Direct"
+},
+"bankDetails": null,
+"paymentInfo": {
+"vendor": "RAZORPAY",
+"siOpted": false,
+"autoDebit": null,
+"mandateType": "CCSI",
+"paymentMode": "CASH"
+},
+"policyHolder": {
+"gender": "Male",
+"mobile": "8879587870",
+"lastName": "bhide",
+"firstName": "Nitish",
+"fatherName": "Chavan",
+"middleName": "Madhu",
+"identityInfo": [
+{
+"type": "PAN",
+"value": "aabuj6934f"
+}
+],
+"maritalStatus": "SINGLE",
+"qualification": "PROFESSIONAL DEGREE",
+"residenceStatus": {
+"nationality": "INDIAN",
+"residentType": "INDIAN",
+"countryOfResidence": "INDIA"
+},
+"permanentAddress": {
+"id": null,
+"city": "Mumbai",
+"state": "GA",
+"country": "India",
+"pincode": "403110",
+"addressType": "RESIDENCE",
+"addressLine1": "Pride purple park",
+"addressLine2": null,
+"addressLine3": null,
+"addressLine4": null
+},
+"professionalInfo": {
+"occupation": "SALARIED",
+"annualIncome": 1000000,
+"natureOfWork": "OFFICEWORK",
+"organizationName": "Aegon"
+},
+"politicallyExposed": false,
+"creditScoreRequired": false,
+"correspondenceAddress": {
+"id": null,
+"city": "Mumbai",
+"state": "DD",
+"country": "India",
+"pincode": "411045",
+"addressType": "RESIDENCE",
+"addressLine1": "Pride Purple park",
+"addressLine2": null,
+"addressLine3": null,
+"addressLine4": null
+},
+"taxResidentOtherCountry": false,
+"emailId": "megha.m@saksoft.com",
+"partyRefId": "nitish29",
+"dateOfBirth": "1975-08-16"
+}
+}

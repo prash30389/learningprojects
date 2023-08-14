@@ -1,0 +1,78 @@
+{
+    "proposalNumber": null,
+    "insured": {
+        "firstName": "Jones Allen",
+        "lastName": null,
+        "mobile": "7977915929",
+        "emailId":"dhasalswapnil88@yahoo.com",
+        "gender": "Male",
+        "dateOfBirth": "2000-03-14T00:00:00.000+0000",
+        "partyRefId": "smith",
+        "addresses": [
+            {
+                "addressType": "RESIDENCE",
+                "addressLine1": "WO DURASAMY 1/179 SOUTH Street, NAVAMARATHUPATTI SUVLERUMBU DINDIGUL",
+                "addressLine2": null,
+                "addressLine3": null,
+                "addressLine4": null,
+                "country": "India",
+                "state": "Karnataka",
+                "city": null,
+                "pincode": "500044"
+            }
+        ],
+        "contacts": [
+            {
+                "contactType": "MOBILE",
+                "contactInfo": "7977915929",
+                "primaryContact": false
+            },
+            {
+                "contactType": "EMAIL",
+                "contactInfo": "test@gmail.com",
+                "primaryContact": false
+            }
+        ]
+    },
+    "paymentInfo": {
+        "transactionId": "51972495191",
+        "siOpted": true,
+        "vendorCode":"FIRSTCRY"
+    },
+    "policyInfo": {
+        "masterPolicyNumber": "FCYGQ0000000001",
+        "policyNumber": "FYCGP2345150102",
+        "transactionType": "NB",
+        "purchaseDateTime": "2020-03-15T00:00:00.000Z",
+        "startDate": "2020-03-16",
+        "coiDispatchDateTime": "2020-03-15T00:00:00.000Z",
+        "planCode": "FCY-0001",
+        "premium": {
+            "paymentFrequency": "QUARTERLY",
+            "initialPremium": 58
+        },
+        "coverages": [
+            {
+                "code": "FCY-0001-DB",
+                "sumAssured": 300000
+            }
+        ],
+        "nominees": [
+            {
+                "partyId": null,
+                "firstName": "AJonh",
+                "middleName": null,
+                "lastName": null,
+                "gender": "Female",
+                "dateOfBirth": null,
+                "relationOfNominee": "WIFE",
+                "nominationPercentage": 100,
+                "address": null,
+                "emailId": null,
+                "mobile": null,
+                "age": 30
+            }
+        ]
+        
+    }
+}

@@ -1,0 +1,364 @@
+{
+    "party": null,
+    "policy": null,
+    "insured": {
+        "firstName": "fsfvds",
+        "middleName": "rider",
+        "lastName": "dfzdgzdfz",
+        "gender": "Male",
+        "fatherName": "etr ewr",
+        "dateOfBirth": "1990-01-07",
+        "birthPlace": "Mumbai",
+        "mobile": "8600590152",
+        "correspondenceAddress": {
+            "id": null,
+            "addressType": "RESIDENCE",
+            "addressLine1": "sdf sa",
+            "addressLine2": "asdf asd",
+            "addressLine3": null,
+            "addressLine4": null,
+            "country": "Resident Indian",
+            "state": "MH",
+            "city": "Mumbai",
+            "pincode": "343434"
+        },
+        "permanentAddress": {
+            "id": null,
+            "addressType": "RESIDENCE",
+            "addressLine1": "sdf sa",
+            "addressLine2": "asdf asd",
+            "addressLine3": null,
+            "addressLine4": null,
+            "country": "Resident Indian",
+            "state": "MH",
+            "city": "Mumbai",
+            "pincode": "343434"
+        },
+        "residenceStatus": {
+            "residentType": "INDIAN",
+            "nationality": "India",
+            "countryOfResidence": "India"
+        },
+        "maritalStatus": "SINGLE",
+        "qualification": "POSTGRADUATE",
+        "identityInfo": [
+            {
+                "type": "PAN",
+                "value": "Nmlsd3658z"
+            }
+        ],
+        "professionalInfo": {
+            "occupation": "SALARIED",
+            "organizationName": "sadf",
+            "annualIncome": 2500000,
+            "natureOfWork": "SALES"
+        },
+        "politicallyExposed": false,
+        "taxResidentOtherCountry": false,
+        "creditScoreRequired": false
+    },
+    "policyInfo": {
+        "policyNumber": "ALI444001000091",
+        "masterPolicyNumber": null,
+        "planCode": null,
+        "pinCode": null,
+        "policyTermOption": "YEAR",
+        "purchaseDateTime": "2020-03-01T03:36:39.306+0000",
+        "startDate": "2020-02-25",
+        "coiDispatchDateTime": "2020-03-01T03:36:39.306+0000",
+        "product": {
+            "schemeCode": "ARMP0000111"
+        },
+        "coverages": [
+            {
+                "code": "ARMP0000111",
+                "sumAssured": 10000000,
+                "premium": 4959,
+                "coverageTerm": 50,
+                "inceptionDate": "2020-03-01T03:36:39.306+0000",
+                "type": "BASE",
+                "loading": [
+                    {
+                        "rate": 1,
+                        "type": "PER_MILE"
+                    },
+                    {
+                        "rate": 5,
+                        "type": "EMR"
+                    }
+                ],
+                "cgstAmount": 446.5,
+                "sgstAmount": 446.5,
+                "igstAmount": 0,
+                "premiumPayingTerm": 10,
+                "cGstAmount": 446.5,
+                "sGstAmount": 446.5,
+                "iGstAmount": 0
+            },
+            {
+                "code": "138B006V05",
+                "sumAssured": 200000,
+                "premium": 101,
+                "coverageTerm": 50,
+                "inceptionDate": "2020-03-01T03:36:39.306+0000",
+                "type": "RIDER",
+                "loading": [
+                    {
+                        "rate": 1,
+                        "type": "PER_MILE"
+                    },
+                    {
+                        "rate": 5,
+                        "type": "EMR"
+                    }
+                ],
+                "cgstAmount": 9,
+                "sgstAmount": 9,
+                "igstAmount": 0,
+                "premiumPayingTerm": 10,
+                "cGstAmount": 9,
+                "sGstAmount": 9,
+                "iGstAmount": 0
+            }
+        ],
+        "premium": {
+            "paymentFrequency": "MONTHLY",
+            "initialPremium": 5971,
+            "premiumPayOption": "YEAR"
+        },
+        "nominees": [
+            {
+                "firstName": "sdaf",
+                "middleName": null,
+                "lastName": "as",
+                "gender": "Male",
+                "relationOfNominee": "FATHER",
+                "otherRelationInfo": null,
+                "nominationPercentage": 100,
+                "age": 30,
+                "dateOfBirth": "1980-01-01",
+                "email": "",
+                "appointee": null,
+                "mobile": null
+            }
+        ],
+        "documents": null,
+        "relationToHolder": "SELF",
+        "questionaire": [
+            {
+                "questionId": "Q_MH_ITERM_HEIGHT",
+                "optedAnswer": "170"
+            },
+            {
+                "questionId": "Q_MH_ITERM_WEIGHT",
+                "optedAnswer": "87"
+            },
+            {
+                "questionId": "Q_LI_NARCOTICS",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_LI_ALCOHOL",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q011-CH-1",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q011-CH-1-1",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_LI_TOBACCO_QTY",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q014-CH-4",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_LI_HAZARDOUS",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_FAMILY",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_IH_DECLINED",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_OTHER_INSURANCE",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_HEART",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_DIABETES",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_LUNG",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_CANCER",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_KIDNEY",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_STOMACH",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_JOINT",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_STD",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_BRAIN",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_OTHER",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_MH_ITERM_PREGNANT",
+                "optedAnswer": "NOT_APPLICABLE"
+            },
+            {
+                "questionId": "Q022-CH-6-8",
+                "optedAnswer": "YES"
+            },
+            {
+                "questionId": "Q_PD_LA_POLITICAL",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_PD_LA_TAX",
+                "optedAnswer": "YES"
+            },
+            {
+                "questionId": "Q_EDU_EDU",
+                "optedAnswer": "Post Graduate"
+            },
+            {
+                "questionId": "Q_MAIDEN",
+                "optedAnswer": "NOT_APPLICABLE"
+            },
+            {
+                "questionId": "Q_EDU_OccupationType",
+                "optedAnswer": "Salaried"
+            },
+            {
+                "questionId": "Q_PERSONAL_RESIDENTSTATUS",
+                "optedAnswer": "Resident Indian"
+            },
+            {
+                "questionId": "Q_PD_PH_POLITICAL",
+                "optedAnswer": "NO"
+            },
+            {
+                "questionId": "Q_PD_PH_TAX",
+                "optedAnswer": "YES"
+            },
+            {
+                "questionId": "Q_ID_DEBIT",
+                "optedAnswer": "YES"
+            }
+        ],
+        "discountType": "EC",
+        "policyType": "INDIVIDUAL",
+        "acceptanceTerm": "IOT",
+        "proposerEntity": "INDIVIDUAL",
+        "incomeBenefit": 0,
+        "applicationDate": null,
+        "basePolicyNumber": null,
+        "lumpSumBenefit": 100
+    },
+    "paymentInfo": {
+        "transactionId": null,
+        "siOpted": false,
+        "mandateType": "CCSI",
+        "vendor": "RAZORPAY",
+        "autoDebit": null,
+        "paymentMode": "CC"
+    },
+    "policyHolder": {
+        "firstName": "ci",
+        "middleName": "rider",
+        "lastName": "test",
+        "gender": "Male",
+        "fatherName": "etr ewr",
+        "dateOfBirth": "1978-01-01",
+        "birthPlace": "Mumbai",
+        "mobile": "9920232727",
+        "correspondenceAddress": {
+            "id": null,
+            "addressType": "RESIDENCE",
+            "addressLine1": "sdf sa",
+            "addressLine2": "asdf asd",
+            "addressLine3": null,
+            "addressLine4": null,
+            "country": "Resident Indian",
+            "state": "MH",
+            "city": "Mumbai",
+            "pincode": "343434"
+        },
+        "permanentAddress": {
+            "id": null,
+            "addressType": "RESIDENCE",
+            "addressLine1": "sdf sa",
+            "addressLine2": "asdf asd",
+            "addressLine3": null,
+            "addressLine4": null,
+            "country": "Resident Indian",
+            "state": "MH",
+            "city": "Mumbai",
+            "pincode": "343434"
+        },
+        "residenceStatus": {
+            "residentType": "INDIAN",
+            "nationality": "India",
+            "countryOfResidence": "India"
+        },
+        "maritalStatus": "SINGLE",
+        "qualification": "Post Graduate",
+        "identityInfo": [
+            {
+                "type": "PAN",
+                "value": "aiwpa7788b"
+            }
+        ],
+        "professionalInfo": {
+            "occupation": "SALARIED",
+            "organizationName": "sadf",
+            "annualIncome": 2500000,
+            "natureOfWork": "SALES"
+        },
+        "politicallyExposed": false,
+        "taxResidentOtherCountry": false,
+        "creditScoreRequired": false
+    },
+    "sourceInfo": {
+        "id": "10008563",
+        "type": "Direct"
+    },
+    "healthInfo": {
+        "height": 170,
+        "weight": 87,
+        "smokerType": "NON_SMOKER"
+    },
+    "bankDetails": null
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.acttime.scripts.LoginTest">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="postCondition"/>
+          <include name="validLogin"/>
+          <include name="PreCondition"/>
+        </methods>
+      </class> <!-- com.acttime.scripts.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

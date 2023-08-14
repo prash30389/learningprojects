@@ -1,0 +1,98 @@
+{
+	"freelookPayoutForInitiatePayment": {
+		"policyNumber": "ALI0RQA17596361",
+		"status": "REFUNDED",
+		"vendorCode": "RAZORPAY",
+		"reason": "Policy Purchased by mistake",
+		"suspenseTypePAYOUT": "PAYOUT",
+		"PolicyStatusInforce": "INFORCE",
+		"PolicyStatusREINSTATEMENT": "REINSTATEMENT"
+	},
+	"suspenseType": {
+		"suspenseNB": "NB",
+		"suspensePayout": "PAYOUT",
+		"suspenseRenew": "RENEWAL",
+		"suspenseReistatement": "REINSTATEMENT",
+		"suspenseAR": "AR"
+	},
+	"payoutType": {
+		"payoutTypeRJ": "RJ",
+		"payoutTypeFL": "FL",
+		"payoutTypeSU": "SU",
+		"payoutTypeFLAR": "FLAR",
+		"payoutTypeNV": "NV",
+		"payoutTypeFLFR": "FLFR",
+		"payoutTypeURPV": "URPV",
+		"payoutTypeSR": "SR",
+		"payoutTypePRC": "PRC",
+		"payoutTypeRSR": "RSR",
+		"payoutTypeLSC": "LSC",
+		"payoutTypeIBC": "IBC"
+	},
+	"cancellationStatus": {
+		"statusInforce": "INFORCE",
+		"statusTerminated": "TERMINATED",
+		"statusNullAndVoidInitiated": "NULL_AND_VOID_INITIATED"
+	},
+	"cancellationReason": {
+		"freelookInitiated": "FREELOOK_INITIATED",
+		"freelookCompleted": "FREELOOK_COMPLETED"
+	},
+	"cancellationStatusDesc": {
+		"statusDescInForce": "In Force",
+		"statusDescTerminated": "Terminated"
+	},
+	"cancellationReasonDesc": {
+		"freelookInitiated": "Freelook Initiated",
+		"freelookNullandVoidInitiated": "NULL_AND_VOID_INITIATED",
+		"rescinded": "Rescinded"
+	},
+	"cancellationType": {
+		"freelook": "FREELOOK",
+		"nullandVoid": "NULL_AND_VOID",
+		"surrender": "SURRENDER",
+		"riderFL": "RIDER_FREELOOK"
+	},
+	"nullandvoidReqReason": {
+		"medicalHistory": "Non-disclosure of medical history",
+		"personalDetails": "Non-disclosure of personal details",
+		"financialDetails": "Non-disclosure of financial details",
+		"other": "Other"
+	},
+	"nullandvoidRefundType": {
+		"noRefund": "No Refund",
+		"fullRefund": "Full Refund"
+	},
+	"surrenderReqReason": {
+		"other": "Other"
+	},
+	"surrenderReason": {
+		"freelookInitiated": "FREELOOK_INITIATED",
+		"freelookCompleted": "FREELOOK_COMPLETED"
+	},
+	"rejectPayoutReason": {
+		"paymentReject": "Payment Reject"
+	},
+	"refundType": {
+		"standard": "STANDARD",
+		"fullRefund": "FULL_REFUND"
+	},
+	"payoutMode": {
+		"payoutModeNEFT": "neft"
+	},
+	"requestReason":
+       {
+          "purchasedByMistake":"Policy Purchased by mistake",
+          "benefitsInadequate":"Policy features Benefits are inadequate",
+          "tcNotAcceptable":"Policy T / C not acceptable",
+          "serviceIssue":"Service issue",
+          "salesIssue":"Sales Issue",
+          "financialIssue":"Financial issue",
+          "Financialproblem":"Financial problem",
+          "Missselling":"Miss selling",
+          "Wrongconversion":"Wrong conversion",
+          "complaint":"Complaint",
+          "financialRequirement":"Financial requirement",
+          "other":"Other"
+       }
+}

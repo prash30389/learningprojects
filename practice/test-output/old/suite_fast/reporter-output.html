@@ -1,0 +1,62 @@
+<h2>Reporter output</h2><table><tr><td><p>++++++++++++++++++++++++++++++++++Payin_NewBusinessPolicy Method Started++++++++++++++++++++++++++++++++++</p></td></tr>
+<tr><td><p>***** Start Creating Procedures for NB Policy *****</p></td></tr>
+<tr><td><p>
+ Test Scenario  :  Payin => Initiate Payment for NB using RAZORPAY 
+</p></td></tr>
+<tr><td><p>Get Status code of API : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Procedure for Get Policy Payment amt of NB Policy**********************************</p></td></tr>
+<tr><td><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></td></tr>
+<tr><td><p>Amount to pay : 693.0</p></td></tr>
+<tr><td><p>
+ installment Premium Returned *****
+</p></td></tr>
+<tr><td><p>Policy Payment amount fetched</p></td></tr>
+<tr><td><p>mobile number fetched from 'config.properties' File </p></td></tr>
+<tr><td><p>emailID fetched from 'config.properties' File </p></td></tr>
+<tr><td><p>paymentType fetched from 'config.properties' File </p></td></tr>
+<tr><td><p>mandateType fetched from 'config.properties' File </p></td></tr>
+<tr><td><p>paymentOption fetched from 'config.properties' File </p></td></tr>
+<tr><td><p>get suspenseType From Constant File ' constantValueFile ' </p></td></tr>
+<tr><td><p>get cancellationType From Constant File ' constantValueFile ' </p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :200</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"payment":{"id":249428,"businessId":"NBTR1011200000249428","paymentDateTime":null,"amount":5693.0,"vendorPayment":{"vendorCode":"RAZORPAY","vendorOrderId":"order_FzSnoVm0z9VY0R","paymentId":null},"status":"INITIATED","paymentMode":null,"receiptDocId":null,"pasUpdatedOn":null,"card":null,"cheque":null,"demandDraft":null,"fundTransfer":null,"micrNumber":null,"ifscCode":null,"bankName":null,"userId":"SYSTEM","branchName":null,"branchCode":null,"transactionId":null,"processInstanceId":null,"accountNumber":null,"paymentMethod":"PAYMENTGATEWAY"},"payer":{"id":238675,"name":"Test User","email":"ankitk@360logica.com","mobileNumber":"6660060198","policyNumber":"ALI0QAP17878775","vendorPayer":{"vendorCode":"RAZORPAY","payerId":"cust_EpvAB2ochO5IEb"},"status":null},"bill":{"id":327249,"policyNumber":"ALI0QAP17878775","dueDate":"2020-11-20","amount":5693.0,"type":"NB","status":"GENERATED","product":{"type":"Term","schemeCode":"ARMP0000111"},"businessId":"NBORALI0QAP1787877500327249","amountPayable":5693.0,"serviceRequestId":null},"receiptDocUrl":null,"anyTimeSiRegistered":false}</p></td></tr>
+<tr><td><p>Status Code						: 200</p></td></tr>
+<tr><td><p>Payment initiated.</p></td></tr>
+<tr><td><p>response of initiatePayment method saved in reference variable inipayRes [ Type : List<String> ]  </p></td></tr>
+<tr><td><p>custId fetched from inipayRes  </p></td></tr>
+<tr><td><p>policyNumber fetched from inipayRes  </p></td></tr>
+<tr><td><p>transactionId fetched from inipayRes  </p></td></tr>
+<tr><td><p>orderId fetched from inipayRes  </p></td></tr>
+<tr><td><p>*********Get Mandate Status for Policy Number*******************</p></td></tr>
+<tr><td><p>Manadate done.</p></td></tr>
+<tr><td><p>[{"id":96776,"status":"Open","payer":{"id":238675,"name":"Test User","email":"ankitk@360logica.com","mobileNumber":"6660060198","policyNumber":"ALI0QAP17878775","vendorPayer":{"vendorCode":"RAZORPAY","payerId":"cust_EpvAB2ochO5IEb"},"status":null},"payment":{"id":249428,"businessId":"NBTR1011200000249428","paymentDateTime":null,"amount":5693.0,"vendorPayment":{"vendorCode":"RAZORPAY","vendorOrderId":"order_FzSnoVm0z9VY0R","paymentId":null},"status":"INITIATED","paymentMode":null,"receiptDocId":null,"pasUpdatedOn":null,"card":null,"cheque":null,"demandDraft":null,"fundTransfer":null,"micrNumber":null,"ifscCode":null,"bankName":null,"userId":"SYSTEM","branchName":null,"branchCode":null,"transactionId":null,"processInstanceId":null,"accountNumber":null,"paymentMethod":"PAYMENTGATEWAY"},"contractNumber":"ALI0QAP17878775","vendorMandateId":null,"startDate":"2020-11-10","endDate":null,"type":"CCSI","subtype":null,"vendorCode":"RAZORPAY","deactivatedOn":null,"deactivationRefId":null,"card":null,"additionalInfo":null,"reason":null,"anytimeSi":false,"lastAutoDebitStatus":null,"businessId":null}]</p></td></tr>
+<tr><td><p>Policy Manadte status is : [Open]</p></td></tr>
+<tr><td><p>*********************Payment checkout for New Business (NB).**********************************</p></td></tr>
+<tr><td><p>Selected Payment Type is Card.</p></td></tr>
+<tr><td><p>*********************Verify Payment Info for New Business (NB).**********************************</p></td></tr>
+<tr><td><p>Final Payment done.</p></td></tr>
+<tr><td><p>response of payment info	: {"paymentModeDescription":"Card","vendorOrderId":"order_FzSnoVm0z9VY0R","dueDate":"2020-11-20","businessId":"NBTR1011200000249428","policyNumber":"ALI0QAP17878775","ddDate":null,"bankName":null,"ddNumber":null,"chequeNumber":null,"createdOn":"2020-11-10","isMandateRegistered":true,"paymentType":"New Business","vendorCode":"RAZORPAY","ddType":null,"id":249428,"processInstanceId":null,"amount":5693.0,"paymentReceivedDate":"2020-11-10T12:22:11.000+0000","paymentMode":"cc","branchName":null,"receiptDocId":null,"chequeDate":null,"branchCode":null,"chequeType":null,"billBusinessId":"NBORALI0QAP1787877500327249","vendorTransactionId":"pay_FzSojA8BmL0Ga7","status":"SUCCESSFUL"}</p></td></tr>
+<tr><td><p>Manadte Registration is : true</p></td></tr>
+<tr><td><p>Payment Mode, Due Date and Amount values are	: Card || 2020-11-20 || 5693.0</p></td></tr>
+<tr><td><p>*********Get Mandate Status for Policy Number after payment done.*******************</p></td></tr>
+<tr><td><p>Manadate done.</p></td></tr>
+<tr><td><p>[{"id":96776,"status":"Registered","payer":{"id":238675,"name":"Test User","email":"ankitk@360logica.com","mobileNumber":"6660060198","policyNumber":"ALI0QAP17878775","vendorPayer":{"vendorCode":"RAZORPAY","payerId":"cust_EpvAB2ochO5IEb"},"status":null},"payment":{"id":249428,"businessId":"NBTR1011200000249428","paymentDateTime":"2020-11-10T12:22:11.000+0000","amount":5693.0,"vendorPayment":{"vendorCode":"RAZORPAY","vendorOrderId":"order_FzSnoVm0z9VY0R","paymentId":"pay_FzSojA8BmL0Ga7"},"status":"SUCCESSFUL","paymentMode":"cc","receiptDocId":null,"pasUpdatedOn":null,"card":{"name":"Aditi Patel","emi":false,"entity":"card","last4":"5558","international":true,"cardType":"credit","cardId":"card_EqBFnTIROnox5g","network":"MasterCard"},"cheque":null,"demandDraft":null,"fundTransfer":null,"micrNumber":null,"ifscCode":null,"bankName":null,"userId":"SYSTEM","branchName":null,"branchCode":null,"transactionId":null,"processInstanceId":"60be39e2-234f-11eb-adfe-0a10d2210fba","accountNumber":null,"paymentMethod":"PAYMENTGATEWAY"},"contractNumber":"ALI0QAP17878775","vendorMandateId":"token_EsAoYEDhOwFoXr","startDate":"2020-11-10","endDate":null,"type":"CCSI","subtype":null,"vendorCode":"RAZORPAY","deactivatedOn":null,"deactivationRefId":null,"card":{"name":"Aditi Patel","emi":false,"entity":"card","last4":"5558","international":true,"cardType":"credit","cardId":"card_EqBFnTIROnox5g","network":"MasterCard"},"additionalInfo":null,"reason":null,"anytimeSi":false,"lastAutoDebitStatus":null,"businessId":null}]</p></td></tr>
+<tr><td><p>Policy Manadte status is : [Registered]</p></td></tr>
+<tr><td><p>verify Policy is in 'INFORCE' Status for Standard decision=>ALI0QAP17878775</p></td></tr>
+<tr><td><p>GET -> Policy Number : The status code is: 200</p></td></tr>
+<tr><td><p>Policy status : INFORCE</p></td></tr>
+<tr><td><p>***********Check Suspense entry for NB type.************</p></td></tr>
+<tr><td><p>Suspense done.</p></td></tr>
+<tr><td><p>[{"policyNumber":"ALI0QAP17878775","amount":0.00,"suspenseType":"NB"},{"policyNumber":"ALI0QAP17878775","amount":5000.00,"suspenseType":"RENEWAL"},{"policyNumber":"ALI0QAP17878775","amount":0,"suspenseType":"PAYOUT"},{"policyNumber":"ALI0QAP17878775","amount":0,"suspenseType":"REINSTATEMENT"},{"policyNumber":"ALI0QAP17878775","amount":0,"suspenseType":"AR"}]</p></td></tr>
+<tr><td><p>Suspense Status : 0.0 || 5000.0 || 0.0 || 0.0 || 0</p></td></tr>
+<tr><td><p>Suspense done.</p></td></tr>
+<tr><td><p>[{"policyNumber":"ALI0QAP17878775","amount":0.00,"suspenseType":"NB"}]</p></td></tr>
+<tr><td><p>************************* Token Generation ********************</p></td></tr>
+<tr><td><p>***********Save Policy Number in Config file.************</p></td></tr>
+<tr><td><p>***** NB Policy Created *****</p></td></tr>
+<tr><td><p>++++++++++++++++++++++++++++++++++Payin_NewBusinessPolicy Method Completed++++++++++++++++++++++++++++++++++</p></td></tr>
+</table>

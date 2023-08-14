@@ -1,0 +1,65 @@
+{
+  "proposalNumber": null,
+  "insured": {
+    "firstName": "Jones Cointab",
+    "lastName": "Allen",
+    "gender": "Male",
+    "dateOfBirth": "1980-01-01",
+    "correspondenceAddress": {
+      "addressLine1": "WO SUVLERUMBU DINDIGUL",
+      "country": "India",
+      "state": "Karnataka",
+      "city": null,
+      "pincode": "500045"
+    },
+    "permanentAddress": {
+      "addressLine1": "WO DINDIGUL",
+      "country": "India",
+      "state": "Karnataka",
+      "city": null,
+      "pincode": "500045"
+    },
+    "emailId": "dhasalswapnil88@yahoo.com",
+    "mobile": "7977915929"
+  },
+  "paymentInfo": {
+    "transactionId": "345678901",
+    "siOpted": true,
+    "vendor": "COINTAB"
+  },
+  "policyInfo": {
+    "masterPolicyNumber": "CTB01G200918005",
+    "policyNumber": "CTB327744488027",
+                            "transactionType": "NB",
+    
+    "purchaseDateTime": "2020-01-06",
+    "startDate": "2020-01-07",
+    "coiDispatchDateTime": "2020-01-08",
+    "planCode": "CTB-0001",
+    "premium": {
+      "paymentFrequency": "YEARLY",
+      "initialPremium": 149
+    },
+    "coverages": [
+      {
+        "code": "CTB-0001-DB",
+        "sumAssured": 100000
+      }
+    ],
+    "nominees": [
+      {
+         "firstName": "Test",
+                "middleName": null,
+                "lastName": "",
+                "gender": "Female",
+                "dateOfBirth": null,
+                "relationOfNominee": "WIFE",
+                "nominationPercentage": 100,
+                "address": null,
+                "emailId": null,
+                "mobile": "9898989898",
+                "age": 30
+      }
+    ]
+  }
+}

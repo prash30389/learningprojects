@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">10</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">503,635</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">StandardPayinPolicies.Rider</td><td><a href="#m0">SurrenderRiderPolicyForNewBusinessUsingRazorPay</a></td><td rowspan="1">1607955826058</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m1">createAddRiderPolicyForNewBusinessUsingRazorPay</a></td><td rowspan="1">1607955825867</td><td rowspan="1">184</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">StandardPayinPolicies.Rider</td><td><a href="#m2">verifyPaymentEventsRazorpaySR</a></td><td rowspan="1">1607955826063</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">StandardPayinPolicies.Rider</td><td><a href="#m3">SurrenderPolicyForNewBusinessUsingRazorPay</a></td><td rowspan="1">1607955992031</td><td rowspan="1">169346</td></tr><tr class="passedeven"><td><a href="#m4">verifyMandatoryFieldsInPaymentRequestSP</a></td><td rowspan="1">1607956210894</td><td rowspan="1">43862</td></tr><tr class="passedeven"><td><a href="#m5">verifyMandatoryFieldsInPaymentRequestSR</a></td><td rowspan="1">1607955873048</td><td rowspan="1">44088</td></tr><tr class="passedeven"><td><a href="#m6">verifyPaymentEventsRazorpaySP</a></td><td rowspan="1">1607956161378</td><td rowspan="1">5635</td></tr><tr class="passedeven"><td><a href="#m7">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP</a></td><td rowspan="1">1607956292230</td><td rowspan="1">37190</td></tr><tr class="passedeven"><td><a href="#m8">verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR</a></td><td rowspan="1">1607955954682</td><td rowspan="1">37347</td></tr><tr class="passedeven"><td><a href="#m9">verifyRequestAmountCannotZeroForCCSIMandateTypeSP</a></td><td rowspan="1">1607956254757</td><td rowspan="1">37472</td></tr><tr class="passedeven"><td><a href="#m10">verifyRequestAmountCannotZeroForCCSIMandateTypeSR</a></td><td rowspan="1">1607955917138</td><td rowspan="1">37543</td></tr><tr class="passedeven"><td><a href="#m11">verifyVendorCodeNotEmptySP</a></td><td rowspan="1">1607956167015</td><td rowspan="1">43877</td></tr><tr class="passedeven"><td><a href="#m12">verifyVendorCodeNotEmptySR</a></td><td rowspan="1">1607955826066</td><td rowspan="1">46981</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">StandardPayinPolicies.Rider#SurrenderRiderPolicyForNewBusinessUsingRazorPay</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: E:\eclipse-workspace\practice\SchemeJson_Retail\rider.json (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:212)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:154)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:109)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at practice.utility.ProposalRequest.SurrenderRiderCode(ProposalRequest.java:808)
+	at StandardPayinPolicies.Rider.SurrenderRiderPolicyForNewBusinessUsingRazorPay(Rider.java:236)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">StandardPayinPolicies.Rider#createAddRiderPolicyForNewBusinessUsingRazorPay</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: E:\eclipse-workspace\practice\SchemeJson_Retail\rider.json (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:212)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:154)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:109)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at practice.utility.ProposalRequest.riderCode(ProposalRequest.java:918)
+	at StandardPayinPolicies.Rider.createAddRiderPolicyForNewBusinessUsingRazorPay(Rider.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">StandardPayinPolicies.Rider#verifyPaymentEventsRazorpaySR</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Rider.verifyPaymentEventsRazorpaySR()[pri:8, instance:StandardPayinPolicies.Rider@2b48a640] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">StandardPayinPolicies.Rider#SurrenderPolicyForNewBusinessUsingRazorPay</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p><br/><p>
+++++++++++ CODE method of Create Sample data for policy  ++++++++++
+</p><br/><p>
+***** Sample data for USER & POLICY HOLDER Started *****
+</p><br/><p>
+ Sample user name created for user 
+</p><br/><p>
+ Sample partyrefid created for user 
+</p><br/><p>
+ Sample mobile No created for user 
+</p><br/><p>
+ Sample DOB created for user 
+</p><br/><p>
+ Sample email ID created for user 
+</p><br/><p>
+ Sample PAN card created for user 
+</p><br/><p>
+ Sample user name created for policy holder 
+</p><br/><p>
+ Sample partyrefid created for policy Holder 
+</p><br/><p>
+ Sample mobile number created for policy holder 
+</p><br/><p>
+ Sample DOB created for policy holder 
+</p><br/><p>
+ Sample policy holder identityInfo created 
+</p><br/><p>
+ Sample PAN card created for policy holder 
+</p><br/><p>
+ policy number created 
+</p><br/><p>
+ policy purchaseDateTime created 
+</p><br/><p>
+ policy startDateTime created 
+</p><br/><p>
+ policy dispatchDateTime created 
+</p><br/><p>
+***** Sample Data for policy created *****
+</p><br/><p>Status     : 200</p><br/><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p><br/><p>*********************Get Policy Payment amt for NB.**********************************</p><br/><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p><br/><p>Amount to pay : 615.0</p><br/><p>
+ installment Premium Returned *****
+</p><br/><p>*********************Payment initiate.**********************************</p><br/><p>status code   :200</p><br/><p>Initiate Payment response body	: {"payment":{"id":262621,"businessId":"NBTR1412200000262621","paymentDateTime":null,"amount":1115.0,"vendorPayment":{"vendorCode":"RAZORPAY","vendorOrderId":"order_GCx3c5ZvcVH6ES","paymentId":null},"status":"INITIATED","paymentMode":null,"receiptDocId":null,"pasUpdatedOn":null,"card":null,"cheque":null,"demandDraft":null,"fundTransfer":null,"micrNumber":null,"ifscCode":null,"bankName":null,"userId":"SYSTEM","branchName":null,"branchCode":null,"transactionId":null,"processInstanceId":null,"accountNumber":null,"paymentMethod":"PAYMENTGATEWAY"},"payer":{"id":253092,"name":"Test User","email":"ankitk@360logica.com","mobileNumber":"6660060198","policyNumber":"ALI0QAP13673456","vendorPayer":{"vendorCode":"RAZORPAY","payerId":"cust_EpvAB2ochO5IEb"},"status":null},"bill":{"id":350737,"policyNumber":"ALI0QAP13673456","dueDate":"2020-12-24","amount":1115.0,"type":"NB","status":"GENERATED","product":{"type":"Term","schemeCode":"ARMP0000111"},"businessId":"NBORALI0QAP1367345600350737","amountPayable":1115.0,"serviceRequestId":null,"createdOn":"2020-12-14"},"receiptDocUrl":null,"anyTimeSiRegistered":false}</p><br/><p>Status Code						: 200</p><br/><p>Payment initiated.</p><br/><p>*********Get Mandate Status for Policy Number.*******************</p><br/><p>*********************Payment checkout for New Business (NB).**********************************</p><br/><p>Selected Payment Type is Card.</p><br/><p>*********************Verify Payment Info for New Business (NB).**********************************</p><br/><p>Final Payment done.</p><br/><p>response of payment info	: {"paymentModeDescription":"Card","vendorOrderId":"order_GCx3c5ZvcVH6ES","dueDate":"2020-12-24","businessId":"NBTR1412200000262621","policyNumber":"ALI0QAP13673456","ddDate":null,"bankName":null,"ddNumber":null,"chequeNumber":null,"createdOn":"2020-12-14","isMandateRegistered":true,"paymentType":"New Business","vendorCode":"RAZORPAY","ddType":null,"id":262621,"processInstanceId":null,"amount":1115.0,"paymentReceivedDate":"2020-12-14T14:24:59.000+0000","paymentMode":"cc","branchName":null,"receiptDocId":null,"chequeDate":null,"branchCode":null,"chequeType":null,"billBusinessId":"NBORALI0QAP1367345600350737","vendorTransactionId":"pay_GCx4XRNiLxz9EE","status":"SUCCESSFUL"}</p><br/><p>Manadte Registration is : true</p><br/><p>Payment Mode, Due Date and Amount values are	: Card || 2020-12-24 || 1115.0</p><br/><p>verify Policy is in 'INFORCE' Status for Standard decision=>ALI0QAP13673456</p><br/><p>GET -> Policy Number : The status code is: 200</p><br/><p>Policy status : INFORCE</p><br/><p>***********Check Suspense entry for NB type.************</p><br/><p>Suspense done.</p><br/><p>[{"policyNumber":"ALI0QAP13673456","amount":0.00,"suspenseType":"NB"},{"policyNumber":"ALI0QAP13673456","amount":500.00,"suspenseType":"RENEWAL"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"PAYOUT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"REINSTATEMENT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"AR"}]</p><br/><p>Suspense Status : 0.0 || 500.0 || 0.0 || 0.0 || 0</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">StandardPayinPolicies.Rider#verifyMandatoryFieldsInPaymentRequestSP</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p><br/><p>Status     : 200</p><br/><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p><br/><p>*********************Get Policy Payment amt for NB.**********************************</p><br/><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p><br/><p>Amount to pay : 461.0</p><br/><p>
+ installment Premium Returned *****
+</p><br/><p>*********************Payment initiate.**********************************</p><br/><p>status code   :400</p><br/><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">StandardPayinPolicies.Rider#verifyMandatoryFieldsInPaymentRequestSR</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p><br/><p>Status     : 200</p><br/><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p><br/><p>*********************Get Policy Payment amt for NB.**********************************</p><br/><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p><br/><p>Amount to pay : 566.0</p><br/><p>
+ installment Premium Returned *****
+</p><br/><p>*********************Payment initiate.**********************************</p><br/><p>status code   :400</p><br/><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">StandardPayinPolicies.Rider#verifyPaymentEventsRazorpaySP</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>*************Check events in dynamodb.************</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">StandardPayinPolicies.Rider#verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p><br/><p>Status     : 200</p><br/><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p><br/><p>*********************Set Policy Payment amt Zero.**********************************</p><br/><p>*********************Payment initiate.**********************************</p><br/><p>status code   :400</p><br/><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">StandardPayinPolicies.Rider#verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p><br/><p>Status     : 200</p><br/><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p><br/><p>*********************Set Policy Payment amt Zero.**********************************</p><br/><p>*********************Payment initiate.**********************************</p><br/><p>status code   :400</p><br/><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">StandardPayinPolicies.Rider#verifyRequestAmountCannotZeroForCCSIMandateTypeSP</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p><br/><p>Status     : 200</p><br/><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p><br/><p>*********************Set Policy Payment amt Zero.**********************************</p><br/><p>*********************Payment initiate.**********************************</p><br/><p>status code   :400</p><br/><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">StandardPayinPolicies.Rider#verifyRequestAmountCannotZeroForCCSIMandateTypeSR</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p><br/><p>Status     : 200</p><br/><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p><br/><p>*********************Set Policy Payment amt Zero.**********************************</p><br/><p>*********************Payment initiate.**********************************</p><br/><p>status code   :400</p><br/><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">StandardPayinPolicies.Rider#verifyVendorCodeNotEmptySP</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p><br/><p>Status     : 200</p><br/><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p><br/><p>*********************Get Policy Payment amt for NB.**********************************</p><br/><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p><br/><p>Amount to pay : 566.0</p><br/><p>
+ installment Premium Returned *****
+</p><br/><p>*********************Payment initiate.**********************************</p><br/><p>status code   :400</p><br/><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">StandardPayinPolicies.Rider#verifyVendorCodeNotEmptySR</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p><br/><p>Status     : 200</p><br/><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p><br/><p>*********************Get Policy Payment amt for NB.**********************************</p><br/><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p><br/><p>Amount to pay : 591.0</p><br/><p>
+ installment Premium Returned *****
+</p><br/><p>*********************Payment initiate.**********************************</p><br/><p>status code   :400</p><br/><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

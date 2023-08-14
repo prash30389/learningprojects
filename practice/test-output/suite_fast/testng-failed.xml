@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite_fast]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="vendor" value="RAZORPAY"/>
+    <classes>
+      <class name="StandardPayinPolicies.NewBusinessPolicyForPayin">
+        <methods>
+          <include name="PayinNewBusinesspolicy" invocation-numbers="0"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- StandardPayinPolicies.NewBusinessPolicyForPayin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [suite_fast] -->

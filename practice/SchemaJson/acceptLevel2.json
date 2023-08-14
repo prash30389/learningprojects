@@ -1,0 +1,11 @@
+{
+   "claimNumber":"",
+   "policyNumber":"",
+   "decision":"ACCEPT",
+   "reason":"Withdrawal_by_Claimant",
+   "subReason":"ACCEPT",
+   "comment":"Accepted.",
+   "actionBy":"100609",
+   "actionByRole":"CLAIM_APPROVER",
+   "requestedOn":null
+}

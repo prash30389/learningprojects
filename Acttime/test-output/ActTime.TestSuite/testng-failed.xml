@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ActTime.TestSuite]">
+  <listeners>
+    <listener class-name="com.acttime.generic.MyTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="baseurl" value="http://127.0.0.1/login.do"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.acttime.scripts.TaskTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="createCustomer"/>
+          <include name="DeleteTask"/>
+          <include name="CreateTask"/>
+          <include name="PreCondition"/>
+          <include name="CreateProject"/>
+        </methods>
+      </class> <!-- com.acttime.scripts.TaskTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ActTime.TestSuite] -->

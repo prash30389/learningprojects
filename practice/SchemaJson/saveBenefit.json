@@ -1,0 +1,20 @@
+{
+   "claimNumber":"",
+   "policyNumber":"",
+   "requestedOn":null,
+   "actionBy":"13853",
+   "actionByRole":"OPS_USER",
+   "claimCaseSummaryInfo":{
+      "claimNumber":"",
+      "policyNumber":"",
+      "actionDetails":{
+         "userId":"13853",
+         "userRole":"Ops User",
+         "userName":"Hassan  Mohideen",
+         "actionTaken":"Claim Registered",
+         "actionTakenDate":"2020-08-14T08:23:33.119Z",
+         "actionType":"REGISTER_CLAIM",
+         "userComments":""
+      }
+   }
+}

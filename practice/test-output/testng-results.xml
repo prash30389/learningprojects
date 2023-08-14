@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="18" passed="10" failed="2" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status     : 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Amount to pay : 591.0</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>status code   :400</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status     : 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Amount to pay : 566.0</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>status code   :400</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status     : 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Set Policy Payment amt Zero.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>status code   :400</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status     : 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Set Policy Payment amt Zero.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>status code   :400</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+++++++++++ CODE method of Create Sample data for policy  ++++++++++
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+***** Sample data for USER & POLICY HOLDER Started *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample user name created for user 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample partyrefid created for user 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample mobile No created for user 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample DOB created for user 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample email ID created for user 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample PAN card created for user 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample user name created for policy holder 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample partyrefid created for policy Holder 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample mobile number created for policy holder 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample DOB created for policy holder 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample policy holder identityInfo created 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ Sample PAN card created for policy holder 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ policy number created 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ policy purchaseDateTime created 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ policy startDateTime created 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ policy dispatchDateTime created 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+***** Sample Data for policy created *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status     : 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Amount to pay : 615.0</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>status code   :200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Initiate Payment response body: {"payment":{"id":262621,"businessId":"NBTR1412200000262621","paymentDateTime":null,"amount":1115.0,"vendorPayment":{"vendorCode":"RAZORPAY","vendorOrderId":"order_GCx3c5ZvcVH6ES","paymentId":null},"status":"INITIATED","paymentMode":null,"receiptDocId":null,"pasUpdatedOn":null,"card":null,"cheque":null,"demandDraft":null,"fundTransfer":null,"micrNumber":null,"ifscCode":null,"bankName":null,"userId":"SYSTEM","branchName":null,"branchCode":null,"transactionId":null,"processInstanceId":null,"accountNumber":null,"paymentMethod":"PAYMENTGATEWAY"},"payer":{"id":253092,"name":"Test User","email":"ankitk@360logica.com","mobileNumber":"6660060198","policyNumber":"ALI0QAP13673456","vendorPayer":{"vendorCode":"RAZORPAY","payerId":"cust_EpvAB2ochO5IEb"},"status":null},"bill":{"id":350737,"policyNumber":"ALI0QAP13673456","dueDate":"2020-12-24","amount":1115.0,"type":"NB","status":"GENERATED","product":{"type":"Term","schemeCode":"ARMP0000111"},"businessId":"NBORALI0QAP1367345600350737","amountPayable":1115.0,"serviceRequestId":null,"createdOn":"2020-12-14"},"receiptDocUrl":null,"anyTimeSiRegistered":false}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status Code: 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Payment initiated.</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********Get Mandate Status for Policy Number.*******************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment checkout for New Business (NB).**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Selected Payment Type is Card.</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Verify Payment Info for New Business (NB).**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Final Payment done.</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>response of payment info: {"paymentModeDescription":"Card","vendorOrderId":"order_GCx3c5ZvcVH6ES","dueDate":"2020-12-24","businessId":"NBTR1412200000262621","policyNumber":"ALI0QAP13673456","ddDate":null,"bankName":null,"ddNumber":null,"chequeNumber":null,"createdOn":"2020-12-14","isMandateRegistered":true,"paymentType":"New Business","vendorCode":"RAZORPAY","ddType":null,"id":262621,"processInstanceId":null,"amount":1115.0,"paymentReceivedDate":"2020-12-14T14:24:59.000+0000","paymentMode":"cc","branchName":null,"receiptDocId":null,"chequeDate":null,"branchCode":null,"chequeType":null,"billBusinessId":"NBORALI0QAP1367345600350737","vendorTransactionId":"pay_GCx4XRNiLxz9EE","status":"SUCCESSFUL"}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Manadte Registration is : true</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Payment Mode, Due Date and Amount values are: Card || 2020-12-24 || 1115.0</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>verify Policy is in 'INFORCE' Status for Standard decision=>ALI0QAP13673456</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>GET -> Policy Number : The status code is: 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Policy status : INFORCE</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>***********Check Suspense entry for NB type.************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Suspense done.</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[{"policyNumber":"ALI0QAP13673456","amount":0.00,"suspenseType":"NB"},{"policyNumber":"ALI0QAP13673456","amount":500.00,"suspenseType":"RENEWAL"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"PAYOUT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"REINSTATEMENT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"AR"}]</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Suspense Status : 0.0 || 500.0 || 0.0 || 0.0 || 0</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*************Check events in dynamodb.************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status     : 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Amount to pay : 566.0</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>status code   :400</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status     : 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Amount to pay : 461.0</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>status code   :400</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status     : 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Set Policy Payment amt Zero.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>status code   :400</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Status     : 200</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Set Policy Payment amt Zero.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>status code   :400</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-12-14T19:53:45 IST" name="Default suite" finished-at="2020-12-14T20:02:09 IST" duration-ms="503635">
+    <groups>
+      <group name="Payment - Initiate Payin Rider">
+        <method signature="Rider.SurrenderPolicyForNewBusinessUsingRazorPay()[pri:13, instance:StandardPayinPolicies.Rider@2b48a640]" name="SurrenderPolicyForNewBusinessUsingRazorPay" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.SurrenderRiderPolicyForNewBusinessUsingRazorPay()[pri:7, instance:StandardPayinPolicies.Rider@2b48a640]" name="SurrenderRiderPolicyForNewBusinessUsingRazorPay" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.createAddRiderPolicyForNewBusinessUsingRazorPay()[pri:1, instance:StandardPayinPolicies.Rider@2b48a640]" name="createAddRiderPolicyForNewBusinessUsingRazorPay" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyPaymentEventsRazorpaySP()[pri:14, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyPaymentEventsRazorpaySP" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyPaymentEventsRazorpaySR()[pri:8, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyPaymentEventsRazorpaySR" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP()[pri:18, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR()[pri:12, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyRequestAmountCannotZeroForCCSIMandateTypeSP()[pri:17, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyRequestAmountCannotZeroForCCSIMandateTypeSP" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyRequestAmountCannotZeroForCCSIMandateTypeSR()[pri:11, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyRequestAmountCannotZeroForCCSIMandateTypeSR" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyVendorCodeNotEmptySP()[pri:15, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyVendorCodeNotEmptySP" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyVendorCodeNotEmptySR()[pri:9, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyVendorCodeNotEmptySR" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyMandatoryFieldsInPaymentRequestSP()[pri:16, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyMandatoryFieldsInPaymentRequestSP" class="StandardPayinPolicies.Rider"/>
+        <method signature="Rider.verifyMandatoryFieldsInPaymentRequestSR()[pri:10, instance:StandardPayinPolicies.Rider@2b48a640]" name="verifyMandatoryFieldsInPaymentRequestSR" class="StandardPayinPolicies.Rider"/>
+      </group> <!-- Payment - Initiate Payin Rider -->
+    </groups>
+    <test started-at="2020-12-14T19:53:45 IST" name="Default test" finished-at="2020-12-14T20:02:09 IST" duration-ms="503635">
+      <class name="StandardPayinPolicies.Rider">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:53:45 IST" name="BeforeTest" finished-at="2020-12-14T19:53:45 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="createAddRiderPolicyForNewBusinessUsingRazorPay()[pri:1, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:53:45 IST" name="createAddRiderPolicyForNewBusinessUsingRazorPay" description="Create Add Rider Policy" finished-at="2020-12-14T19:53:46 IST" duration-ms="184" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[E:\eclipse-workspace\practice\SchemeJson_Retail\rider.json (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: E:\eclipse-workspace\practice\SchemeJson_Retail\rider.json (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:212)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:154)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+at java.base/java.io.FileReader.<init>(FileReader.java:60)
+at practice.utility.ProposalRequest.riderCode(ProposalRequest.java:918)
+at StandardPayinPolicies.Rider.createAddRiderPolicyForNewBusinessUsingRazorPay(Rider.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAddRiderPolicyForNewBusinessUsingRazorPay -->
+        <test-method signature="SurrenderRiderPolicyForNewBusinessUsingRazorPay()[pri:7, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:53:46 IST" name="SurrenderRiderPolicyForNewBusinessUsingRazorPay" description="Create Add Rider Policy" finished-at="2020-12-14T19:53:46 IST" duration-ms="2" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[E:\eclipse-workspace\practice\SchemeJson_Retail\rider.json (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: E:\eclipse-workspace\practice\SchemeJson_Retail\rider.json (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:212)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:154)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+at java.base/java.io.FileReader.<init>(FileReader.java:60)
+at practice.utility.ProposalRequest.SurrenderRiderCode(ProposalRequest.java:808)
+at StandardPayinPolicies.Rider.SurrenderRiderPolicyForNewBusinessUsingRazorPay(Rider.java:236)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SurrenderRiderPolicyForNewBusinessUsingRazorPay -->
+        <test-method signature="verifyPaymentEventsRazorpaySR()[pri:8, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:53:46 IST" name="verifyPaymentEventsRazorpaySR" description="TC - To verify dynamodb events for Razorpay Payin" finished-at="2020-12-14T19:53:46 IST" depends-on-methods="StandardPayinPolicies.Rider.SurrenderRiderPolicyForNewBusinessUsingRazorPay" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Rider.verifyPaymentEventsRazorpaySR()[pri:8, instance:StandardPayinPolicies.Rider@2b48a640] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Rider.verifyPaymentEventsRazorpaySR()[pri:8, instance:StandardPayinPolicies.Rider@2b48a640] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentEventsRazorpaySR -->
+        <test-method signature="verifyVendorCodeNotEmptySR()[pri:9, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:53:46 IST" name="verifyVendorCodeNotEmptySR" description="TC to verify Error throws when Vendor Code is Empty." finished-at="2020-12-14T19:54:33 IST" duration-ms="46981" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status     : 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Amount to pay : 591.0</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>status code   :400</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyVendorCodeNotEmptySR -->
+        <test-method signature="verifyMandatoryFieldsInPaymentRequestSR()[pri:10, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:54:33 IST" name="verifyMandatoryFieldsInPaymentRequestSR" description="TC to verify mobileNumber and email mandatory in payment request if vendor code is RAZORPAY" finished-at="2020-12-14T19:55:17 IST" duration-ms="44088" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status     : 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Amount to pay : 566.0</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>status code   :400</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFieldsInPaymentRequestSR -->
+        <test-method signature="verifyRequestAmountCannotZeroForCCSIMandateTypeSR()[pri:11, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:55:17 IST" name="verifyRequestAmountCannotZeroForCCSIMandateTypeSR" description="TC to verify request amount can not be zero other than eMandate Payment, error thrown." finished-at="2020-12-14T19:55:54 IST" duration-ms="37543" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status     : 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Set Policy Payment amt Zero.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>status code   :400</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRequestAmountCannotZeroForCCSIMandateTypeSR -->
+        <test-method signature="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR()[pri:12, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:55:54 IST" name="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR" description="TC to verify Error throws when mandate type eMandate Payment and payment amount is greater than zero." finished-at="2020-12-14T19:56:32 IST" duration-ms="37347" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status     : 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Set Policy Payment amt Zero.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>status code   :400</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSR -->
+        <test-method signature="SurrenderPolicyForNewBusinessUsingRazorPay()[pri:13, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:56:32 IST" name="SurrenderPolicyForNewBusinessUsingRazorPay" description="Create Add Rider Policy" finished-at="2020-12-14T19:59:21 IST" duration-ms="169346" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+++++++++++ CODE method of Create Sample data for policy  ++++++++++
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+***** Sample data for USER & POLICY HOLDER Started *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample user name created for user 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample partyrefid created for user 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample mobile No created for user 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample DOB created for user 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample email ID created for user 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample PAN card created for user 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample user name created for policy holder 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample partyrefid created for policy Holder 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample mobile number created for policy holder 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample DOB created for policy holder 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample policy holder identityInfo created 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ Sample PAN card created for policy holder 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ policy number created 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ policy purchaseDateTime created 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ policy startDateTime created 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ policy dispatchDateTime created 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+***** Sample Data for policy created *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status     : 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Amount to pay : 615.0</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>status code   :200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Initiate Payment response body: {"payment":{"id":262621,"businessId":"NBTR1412200000262621","paymentDateTime":null,"amount":1115.0,"vendorPayment":{"vendorCode":"RAZORPAY","vendorOrderId":"order_GCx3c5ZvcVH6ES","paymentId":null},"status":"INITIATED","paymentMode":null,"receiptDocId":null,"pasUpdatedOn":null,"card":null,"cheque":null,"demandDraft":null,"fundTransfer":null,"micrNumber":null,"ifscCode":null,"bankName":null,"userId":"SYSTEM","branchName":null,"branchCode":null,"transactionId":null,"processInstanceId":null,"accountNumber":null,"paymentMethod":"PAYMENTGATEWAY"},"payer":{"id":253092,"name":"Test User","email":"ankitk@360logica.com","mobileNumber":"6660060198","policyNumber":"ALI0QAP13673456","vendorPayer":{"vendorCode":"RAZORPAY","payerId":"cust_EpvAB2ochO5IEb"},"status":null},"bill":{"id":350737,"policyNumber":"ALI0QAP13673456","dueDate":"2020-12-24","amount":1115.0,"type":"NB","status":"GENERATED","product":{"type":"Term","schemeCode":"ARMP0000111"},"businessId":"NBORALI0QAP1367345600350737","amountPayable":1115.0,"serviceRequestId":null,"createdOn":"2020-12-14"},"receiptDocUrl":null,"anyTimeSiRegistered":false}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status Code: 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Payment initiated.</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********Get Mandate Status for Policy Number.*******************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment checkout for New Business (NB).**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Selected Payment Type is Card.</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Verify Payment Info for New Business (NB).**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Final Payment done.</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>response of payment info: {"paymentModeDescription":"Card","vendorOrderId":"order_GCx3c5ZvcVH6ES","dueDate":"2020-12-24","businessId":"NBTR1412200000262621","policyNumber":"ALI0QAP13673456","ddDate":null,"bankName":null,"ddNumber":null,"chequeNumber":null,"createdOn":"2020-12-14","isMandateRegistered":true,"paymentType":"New Business","vendorCode":"RAZORPAY","ddType":null,"id":262621,"processInstanceId":null,"amount":1115.0,"paymentReceivedDate":"2020-12-14T14:24:59.000+0000","paymentMode":"cc","branchName":null,"receiptDocId":null,"chequeDate":null,"branchCode":null,"chequeType":null,"billBusinessId":"NBORALI0QAP1367345600350737","vendorTransactionId":"pay_GCx4XRNiLxz9EE","status":"SUCCESSFUL"}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Manadte Registration is : true</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Payment Mode, Due Date and Amount values are: Card || 2020-12-24 || 1115.0</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>verify Policy is in 'INFORCE' Status for Standard decision=>ALI0QAP13673456</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>GET -> Policy Number : The status code is: 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Policy status : INFORCE</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>***********Check Suspense entry for NB type.************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Suspense done.</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[{"policyNumber":"ALI0QAP13673456","amount":0.00,"suspenseType":"NB"},{"policyNumber":"ALI0QAP13673456","amount":500.00,"suspenseType":"RENEWAL"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"PAYOUT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"REINSTATEMENT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"AR"}]</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Suspense Status : 0.0 || 500.0 || 0.0 || 0.0 || 0</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SurrenderPolicyForNewBusinessUsingRazorPay -->
+        <test-method signature="verifyPaymentEventsRazorpaySP()[pri:14, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:59:21 IST" name="verifyPaymentEventsRazorpaySP" description="TC - To verify dynamodb events for Razorpay Payin" finished-at="2020-12-14T19:59:27 IST" depends-on-methods="StandardPayinPolicies.Rider.SurrenderPolicyForNewBusinessUsingRazorPay" duration-ms="5635" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>*************Check events in dynamodb.************</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentEventsRazorpaySP -->
+        <test-method signature="verifyVendorCodeNotEmptySP()[pri:15, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T19:59:27 IST" name="verifyVendorCodeNotEmptySP" description="TC to verify Error throws when Vendor Code is Empty." finished-at="2020-12-14T20:00:10 IST" duration-ms="43877" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status     : 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Amount to pay : 566.0</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>status code   :400</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyVendorCodeNotEmptySP -->
+        <test-method signature="verifyMandatoryFieldsInPaymentRequestSP()[pri:16, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T20:00:10 IST" name="verifyMandatoryFieldsInPaymentRequestSP" description="TC to verify mobileNumber and email mandatory in payment request if vendor code is RAZORPAY" finished-at="2020-12-14T20:00:54 IST" duration-ms="43862" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status     : 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Get Policy Payment amt for NB.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Amount to pay : 461.0</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>
+ installment Premium Returned *****
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>status code   :400</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFieldsInPaymentRequestSP -->
+        <test-method signature="verifyRequestAmountCannotZeroForCCSIMandateTypeSP()[pri:17, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T20:00:54 IST" name="verifyRequestAmountCannotZeroForCCSIMandateTypeSP" description="TC to verify request amount can not be zero other than eMandate Payment, error thrown." finished-at="2020-12-14T20:01:32 IST" duration-ms="37472" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status     : 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Set Policy Payment amt Zero.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>status code   :400</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRequestAmountCannotZeroForCCSIMandateTypeSP -->
+        <test-method signature="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP()[pri:18, instance:StandardPayinPolicies.Rider@2b48a640]" started-at="2020-12-14T20:01:32 IST" name="verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP" description="TC to verify Error throws when mandate type eMandate Payment and payment amount is greater than zero." finished-at="2020-12-14T20:02:09 IST" duration-ms="37190" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Status     : 200</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Set Policy Payment amt Zero.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>*********************Payment initiate.**********************************</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>status code   :400</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Initiate Payment response body: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRequestAmountCannotGreaterThanZeroForeMandateTypeSP -->
+      </class> <!-- StandardPayinPolicies.Rider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

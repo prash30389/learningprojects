@@ -1,0 +1,77 @@
+{
+    "insured": {
+        "firstName": "Smith Jones",
+        "lastName": "Mark",
+        "gender": "Male",
+        "mobile": "7977915929",
+        "emailId": "dhasalswapnil88@yahoo.com",
+        "dateOfBirth": "1976-03-19T00:00:00.000+0000",
+        "addresses": [
+            {
+                "addressLine1": "40 Indian Spring Street",
+                "addressType": "RESIDENCE",
+                "pincode": "500038",
+                "state": "",
+                "country": "India"
+            }
+        ],
+        "permanentAddress": {
+            "addressType": "RESIDENCE",
+            "addressLine1": "WO DURASAMY 1/179 SOUTH Street, NAVAMARATHUPATTI SUVLERUMBU DINDIGUL",
+            "addressLine2": null,
+            "addressLine3": null,
+            "addressLine4": null,
+            "country": "India",
+            "state": "Karnataka",
+            "city": null,
+            "pincode": "500044"
+        },
+        "contacts": [
+            {
+                "contactType": "EMAIL",
+                "contactinfo": "swati2011ingle@gmail.com",
+                "primaryContact": false
+            }
+        ]
+    },
+    "paymentInfo": {
+        "transactionId": "4879563598",
+        "siOpted": true,
+        "vendorCode": "INDIALENDS"
+    },
+    "policyInfo": {
+        "masterPolicyNumber": "INLAD0000000011",
+        "policyNumber": "INLGD0065670807",
+        "transactionType": "NB",
+        "purchaseDateTime": "2020-05-05T10:30:00.000Z",
+        "startDate": "2020-05-05",
+        "coiDispatchDateTime": "2020-05-05T10:30:00.000Z",
+        "planCode": "INL-0001",
+        "premium": {
+            "paymentFrequency": "YEARLY",
+            "initialPremium": 149
+        },
+        "coverages": [
+            {
+                "code": "INL-0001-DB",
+                "sumAssured": 100000
+            }
+        ],
+        "nominees": [
+            {
+                "partyId": null,
+                "firstName": "Simmi Jones",
+                "middleName": null,
+                "lastName": null,
+                "gender": null,
+                "dateOfBirth": null,
+                "relationOfNominee": null,
+                "nominationPercentage": 100,
+                "address": null,
+                "emailId": null,
+                "mobile": null,
+                "age": 30
+            }
+        ]
+    }
+}

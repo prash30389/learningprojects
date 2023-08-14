@@ -1,0 +1,73 @@
+{
+    "proposalNumber": null,
+    "insured": {
+        "firstName": "Jones Paytm (I)",
+        "lastName": "Allen's'",
+        "gender": null,
+        "dateOfBirth": "2000-06-29",
+        "addresses": [
+            {
+                "addressType": "RESIDENCE",
+                "addressLine1": "WO DURASAMY 1/179 SOUTH Street, NAVAMARATHUPATTI SUVLERUMBU DINDIGUL",
+                "addressLine2": null,
+                "addressLine3": null,
+                "addressLine4": null,
+                "country": "India",
+                "state": "Karnataka",
+                "city": null,
+                "pincode": "500044"
+            }
+        ],
+        "emailId": "dhasalswapnil88@yahoo.com",
+        "mobile": "7977915929"
+    },
+    "paymentInfo": {
+        "transactionId": "9105123021103",
+        "siOpted": true,
+        "vendor" : "PAYTM"
+    },
+    "policyInfo": {
+        "masterPolicyNumber": "P03G01903250002",
+        "policyNumber": "PTM101091001001",
+        
+        "purchaseDateTime": "2020-01-20",
+        "startDate": "2020-01-20",
+                "coiDispatchDateTime": "2020-01-20",
+        
+        "planCode": "PTM-0001",
+        "premium": {
+            "paymentFrequency": "YEARLY",
+            "initialPremium": 149
+        },
+        "coverages": [
+            {
+                "code": "PTM-0001-DB",
+                "sumAssured": 100000
+            }
+        ],
+         "nominees": [
+            {
+               "partyId": null,
+                "firstName": "Simmi Jones",
+                "middleName": null,
+                "lastName": "Test",
+                "gender": "Female",
+                "dateOfBirth": null,
+                "relationOfNominee": "WIFE",
+                "nominationPercentage": 100,
+                "address": null,
+                "emailId": null,
+                "mobile": "9898989898",
+                "age": 23
+            }
+        ],
+         
+        "documents": [
+            {
+                 "type": "COI",
+                "url": "https://services.qa-aegonlife.com/docstore/documents/4731d099-da84-46ce-8a1d-c348a4d35591"
+            }
+            
+        ]
+    }
+}

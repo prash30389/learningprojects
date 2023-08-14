@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests" thread-count="3">
+  <test name="loginPage">
+  <parameter name = "browser" value = "chrome"/>
+	<parameter name = "baseurl" value = "http://127.0.0.1/login.do"/>
+    <classes>
+      <class name="com.gmail.newParallel"/>
+    </classes>
+  </test>
+  <test name="loginPage2">
+  <parameter name = "browser" value = "firefox"/>
+	<parameter name = "baseurl" value = "http://127.0.0.1/login.do"/>
+    <classes>
+      <class name="com.gmail.newParallel"/>
+    </classes>
+  </test>
+  <test name="loginPage3">
+  <parameter name = "browser" value = "ie"/>
+	<parameter name = "baseurl" value = "http://127.0.0.1/login.do"/>
+    <classes>
+      <class name="com.gmail.newParallel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

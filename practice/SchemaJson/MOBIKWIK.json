@@ -1,0 +1,84 @@
+{
+    "proposalNumber": null,
+  
+    "insured": {
+        "firstName": "Jones M P(I)",
+        "lastName": "Mark's'",
+        "mobile" : "7977915929",
+        "gender": "Male",
+        "dateOfBirth": "1990-03-19",
+
+      "addresses": [
+            {
+                "addressLine1": "40 Indian Spring Street",
+                "addressType": "RESIDENCE",
+                "pincode": "500038",
+                "state": null,
+                "country": "India"
+            } ],
+            
+           
+
+        "contacts": [
+            {
+                "contactType": "MOBILE",
+                "contactInfo": "9999999999",
+                "primaryContact": false
+            },
+            {
+                "contactType": "EMAIL",
+                "contactInfo": "dhasalswapnil88@yahoo.com",
+                "primaryContact": false
+            }
+        ]
+    },
+      "paymentInfo": {
+        "transactionId": "77798489909892",
+        "siOpted": true
+    },
+    "policyInfo": {
+        "masterPolicyNumber": "M01201903259959",
+        "policyNumber": "KC1G81990997892",
+       "purchaseDateTime": "2020-06-19",
+        "startDate": "2020-06-20",
+        "coiDispatchDateTime": "2020-06-19",
+        "planCode": "GOLD2",
+        "premium": {
+            "paymentFrequency": "MONTHLY",
+            "initialPremium": 30
+        },
+        "coverages": [
+            {
+                "code": "MBK-0001-DB",
+                "sumAssured": 150000
+            },
+            {
+                "code": "MBK-0001-ACDMB",
+                "sumAssured": 150000
+            }
+        ],
+        "nominees": [
+            {
+               "partyId": null,
+                "firstName": "Test",
+                "middleName": null,
+                "lastName": "Test",
+                "gender": "Female",
+                "dateOfBirth": null,
+                "relationOfNominee": "WIFE",
+                "nominationPercentage": 100,
+                "address": null,
+                "emailId": null,
+                "mobile": "9898989898",
+                "age": 30
+            }
+             
+        ],
+        "documents": [
+            {
+                "type": "COI",
+                "url": "https://services.qa-aegonlife.com/docstore/documents/4731d099-da84-46ce-8a1d-c348a4d35591"
+            }
+        ]
+    }
+}

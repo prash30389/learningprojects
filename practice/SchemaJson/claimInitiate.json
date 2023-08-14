@@ -1,0 +1,109 @@
+{
+   "policyNumber":"",
+   "claimNumber":"",
+   "serviceRequestId":"",
+   "caseId":"",
+   "caseReason":"",
+   "claimDetail":{
+      "type":"DEATH",
+      "dateOfIntimation":"2020-08-15T18:30:00.000Z",
+      "timeOfClaimIntimation":"BEFORE_3_PM",
+      "causeOfDeath":"ACCIDENTAL",
+      "subClassification":"DEATH_CLAIM",
+      "relationOfNotifier":null,
+      "originIntimation":"BRANCH",
+      "reason":"DEATH_CLAIM_INTIMATION",
+      "summary":"aaa",
+      "communicationMode":null,
+      "dateOfDeath":"2020-08-15T18:30:00.000Z",
+      "eventDate":"2020-08-15T18:30:00.000Z",
+      "dateOfAccident":"2020-08-15T18:30:00.000Z",
+      "incomeBenefit":50,
+      "lumpSumBenefit":50,
+      "reconsiderationCase":"Yes",
+      "coverageCode":[
+         "ARMP0000111"
+      ],
+      "requirementDetails":[
+
+      ],
+      "subCauseOfDeath":"ROAD_TRAFFIC_ACCIDENT",
+      "lateClaimIntimationReason":"",
+      "mocOfIntimation":"BRANCH"
+   },
+   "claimantDetails":[
+      {
+         "title":"Mr",
+         "firstName":"TestClaim",
+         "lastName":"TestClaim",
+         "middleName":"TestClaim",
+         "relationship":"SPOUSE",
+         "dob":"2005-07-31T18:30:00.000Z",
+         "emailId":"TestClaim@gmail.com",
+         "contactNumber":"6910035773",
+         "gender":"Male",
+         "fatherName":"",
+         "spouseName":"",
+         "nationality":"Indian",
+         "addressDetail":{
+            "address":"TestClaim AVENUE GAURCITY-2",
+            "address1":"GREATER NOIDA WEST",
+            "city":"GREATER NOIDA",
+            "state":"UP",
+            "pinCode":"201009"
+         },
+         "bankDetail":{
+            "accountHoldersName":"TestClaim",
+            "accountNumber":"12345",
+            "typeOfAccount":"SAVINGS",
+            "bankName":"HDFC",
+            "branchAddress":"G10048 16TH AVENUE GAURCITY-2",
+            "ifscCode":"HDFC0123456",
+            "micrCode":""
+         },
+         "payoutPercent":"100"
+      }
+   ],
+   "status":{
+      "status":"",
+      "reason":""
+   },
+   "reviewDetail":{
+      "claimNumber":"",
+      "assessmentNotes":null,
+      "benefitsCalculationDetail":null,
+      "cmoOpinionDetail":null,
+      "investigationDetail":null,
+      "legalOpinionDetail":null,
+      "reinsuranceDetail":null,
+      "reinsurerOpinionDetail":null,
+      "reviewAssessmentDetail":null,
+      "underWritingOpinionDetail":null,
+      "claimCaseSummaryInfo":{
+         "claimNumber":"",
+         "policyNumber":"",
+         "actionDetails":{
+            "userId":"",
+            "userRole":"",
+            "userName":"",
+            "actionTaken":"",
+            "actionTakenDate":null,
+            "actionType":"",
+            "userComments":""
+         }
+      }
+   },
+   "claimCaseSummaryInfo":{
+      "claimNumber":"",
+      "policyNumber":"",
+      "actionDetails":{
+         "userId":"13853",
+         "userRole":"Ops User",
+         "userName":"Hassan  Mohideen",
+         "actionTaken":"Claim Initiated",
+         "actionTakenDate":"2020-08-12T07:10:32.606Z",
+         "actionType":"INIT_CLAIM",
+         "userComments":""
+      }
+   }
+}

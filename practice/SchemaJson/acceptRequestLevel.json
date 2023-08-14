@@ -1,0 +1,24 @@
+{
+   "claimNumber":"",
+   "policyNumber":"",
+   "decision":"ACCEPT",
+   "reason":"Withdrawal_by_Claimant",
+   "subReason":"ACCEPT",
+   "comment":"TestComment....",
+   "actionBy":"id",
+   "actionByRole":"role",
+   "requestedOn":null,
+   "claimCaseSummaryInfo":{
+      "claimNumber":"",
+      "policyNumber":"",
+      "actionDetails":{
+         "userId":"",
+         "userRole":"",
+         "userName":"User",
+         "actionTaken":"Decision : Accept , Sub Reason : Accept",
+         "actionTakenDate":"2020-07-01T07:12:22.246Z",
+         "actionType":"CLAIM_DECISION",
+         "userComments":"TestComment..."
+      }
+   }
+}

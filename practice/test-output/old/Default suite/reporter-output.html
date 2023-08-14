@@ -1,0 +1,198 @@
+<h2>Reporter output</h2><table><tr><td><p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p></td></tr>
+<tr><td><p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p></td></tr>
+<tr><td><p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p></td></tr>
+<tr><td><p>Status     : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Get Policy Payment amt for NB.**********************************</p></td></tr>
+<tr><td><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></td></tr>
+<tr><td><p>Amount to pay : 591.0</p></td></tr>
+<tr><td><p>
+ installment Premium Returned *****
+</p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :400</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p></td></tr>
+<tr><td><p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p></td></tr>
+<tr><td><p>Status     : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Get Policy Payment amt for NB.**********************************</p></td></tr>
+<tr><td><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></td></tr>
+<tr><td><p>Amount to pay : 566.0</p></td></tr>
+<tr><td><p>
+ installment Premium Returned *****
+</p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :400</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p></td></tr>
+<tr><td><p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p></td></tr>
+<tr><td><p>Status     : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Set Policy Payment amt Zero.**********************************</p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :400</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p></td></tr>
+<tr><td><p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p></td></tr>
+<tr><td><p>Status     : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Set Policy Payment amt Zero.**********************************</p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :400</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p></td></tr>
+<tr><td><p>
+******** Test Scenario  :  Create Add Rider Policy in Inforce State ******
+</p></td></tr>
+<tr><td><p>
+++++++++++ CODE method of Create Sample data for policy  ++++++++++
+</p></td></tr>
+<tr><td><p>
+***** Sample data for USER & POLICY HOLDER Started *****
+</p></td></tr>
+<tr><td><p>
+ Sample user name created for user 
+</p></td></tr>
+<tr><td><p>
+ Sample partyrefid created for user 
+</p></td></tr>
+<tr><td><p>
+ Sample mobile No created for user 
+</p></td></tr>
+<tr><td><p>
+ Sample DOB created for user 
+</p></td></tr>
+<tr><td><p>
+ Sample email ID created for user 
+</p></td></tr>
+<tr><td><p>
+ Sample PAN card created for user 
+</p></td></tr>
+<tr><td><p>
+ Sample user name created for policy holder 
+</p></td></tr>
+<tr><td><p>
+ Sample partyrefid created for policy Holder 
+</p></td></tr>
+<tr><td><p>
+ Sample mobile number created for policy holder 
+</p></td></tr>
+<tr><td><p>
+ Sample DOB created for policy holder 
+</p></td></tr>
+<tr><td><p>
+ Sample policy holder identityInfo created 
+</p></td></tr>
+<tr><td><p>
+ Sample PAN card created for policy holder 
+</p></td></tr>
+<tr><td><p>
+ policy number created 
+</p></td></tr>
+<tr><td><p>
+ policy purchaseDateTime created 
+</p></td></tr>
+<tr><td><p>
+ policy startDateTime created 
+</p></td></tr>
+<tr><td><p>
+ policy dispatchDateTime created 
+</p></td></tr>
+<tr><td><p>
+***** Sample Data for policy created *****
+</p></td></tr>
+<tr><td><p>Status     : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Get Policy Payment amt for NB.**********************************</p></td></tr>
+<tr><td><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></td></tr>
+<tr><td><p>Amount to pay : 615.0</p></td></tr>
+<tr><td><p>
+ installment Premium Returned *****
+</p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :200</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"payment":{"id":262621,"businessId":"NBTR1412200000262621","paymentDateTime":null,"amount":1115.0,"vendorPayment":{"vendorCode":"RAZORPAY","vendorOrderId":"order_GCx3c5ZvcVH6ES","paymentId":null},"status":"INITIATED","paymentMode":null,"receiptDocId":null,"pasUpdatedOn":null,"card":null,"cheque":null,"demandDraft":null,"fundTransfer":null,"micrNumber":null,"ifscCode":null,"bankName":null,"userId":"SYSTEM","branchName":null,"branchCode":null,"transactionId":null,"processInstanceId":null,"accountNumber":null,"paymentMethod":"PAYMENTGATEWAY"},"payer":{"id":253092,"name":"Test User","email":"ankitk@360logica.com","mobileNumber":"6660060198","policyNumber":"ALI0QAP13673456","vendorPayer":{"vendorCode":"RAZORPAY","payerId":"cust_EpvAB2ochO5IEb"},"status":null},"bill":{"id":350737,"policyNumber":"ALI0QAP13673456","dueDate":"2020-12-24","amount":1115.0,"type":"NB","status":"GENERATED","product":{"type":"Term","schemeCode":"ARMP0000111"},"businessId":"NBORALI0QAP1367345600350737","amountPayable":1115.0,"serviceRequestId":null,"createdOn":"2020-12-14"},"receiptDocUrl":null,"anyTimeSiRegistered":false}</p></td></tr>
+<tr><td><p>Status Code						: 200</p></td></tr>
+<tr><td><p>Payment initiated.</p></td></tr>
+<tr><td><p>*********Get Mandate Status for Policy Number.*******************</p></td></tr>
+<tr><td><p>*********************Payment checkout for New Business (NB).**********************************</p></td></tr>
+<tr><td><p>Selected Payment Type is Card.</p></td></tr>
+<tr><td><p>*********************Verify Payment Info for New Business (NB).**********************************</p></td></tr>
+<tr><td><p>Final Payment done.</p></td></tr>
+<tr><td><p>response of payment info	: {"paymentModeDescription":"Card","vendorOrderId":"order_GCx3c5ZvcVH6ES","dueDate":"2020-12-24","businessId":"NBTR1412200000262621","policyNumber":"ALI0QAP13673456","ddDate":null,"bankName":null,"ddNumber":null,"chequeNumber":null,"createdOn":"2020-12-14","isMandateRegistered":true,"paymentType":"New Business","vendorCode":"RAZORPAY","ddType":null,"id":262621,"processInstanceId":null,"amount":1115.0,"paymentReceivedDate":"2020-12-14T14:24:59.000+0000","paymentMode":"cc","branchName":null,"receiptDocId":null,"chequeDate":null,"branchCode":null,"chequeType":null,"billBusinessId":"NBORALI0QAP1367345600350737","vendorTransactionId":"pay_GCx4XRNiLxz9EE","status":"SUCCESSFUL"}</p></td></tr>
+<tr><td><p>Manadte Registration is : true</p></td></tr>
+<tr><td><p>Payment Mode, Due Date and Amount values are	: Card || 2020-12-24 || 1115.0</p></td></tr>
+<tr><td><p>verify Policy is in 'INFORCE' Status for Standard decision=>ALI0QAP13673456</p></td></tr>
+<tr><td><p>GET -> Policy Number : The status code is: 200</p></td></tr>
+<tr><td><p>Policy status : INFORCE</p></td></tr>
+<tr><td><p>***********Check Suspense entry for NB type.************</p></td></tr>
+<tr><td><p>Suspense done.</p></td></tr>
+<tr><td><p>[{"policyNumber":"ALI0QAP13673456","amount":0.00,"suspenseType":"NB"},{"policyNumber":"ALI0QAP13673456","amount":500.00,"suspenseType":"RENEWAL"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"PAYOUT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"REINSTATEMENT"},{"policyNumber":"ALI0QAP13673456","amount":0,"suspenseType":"AR"}]</p></td></tr>
+<tr><td><p>Suspense Status : 0.0 || 500.0 || 0.0 || 0.0 || 0</p></td></tr>
+<tr><td><p>*************Check events in dynamodb.************</p></td></tr>
+<tr><td><p>
+******** Test Scenario  :  Verify Error throws when Vendor Code is Empty.**********
+</p></td></tr>
+<tr><td><p>Status     : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Get Policy Payment amt for NB.**********************************</p></td></tr>
+<tr><td><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></td></tr>
+<tr><td><p>Amount to pay : 566.0</p></td></tr>
+<tr><td><p>
+ installment Premium Returned *****
+</p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :400</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Provided vendor code is not available"}]}</p></td></tr>
+<tr><td><p>
+******** Test Scenario : Verify mobile Number and email mandatory in payment request if vendor code is RAZORPAY.**********
+</p></td></tr>
+<tr><td><p>Status     : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Get Policy Payment amt for NB.**********************************</p></td></tr>
+<tr><td><p>
+***** To get installment Premium from getNBQuotation API method Started *****
+</p></td></tr>
+<tr><td><p>Amount to pay : 461.0</p></td></tr>
+<tr><td><p>
+ installment Premium Returned *****
+</p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :400</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Email or MobileNumber can not be empty"}]}</p></td></tr>
+<tr><td><p>
+******** Test Scenario  :  Verify Error throws when mandate type other than eMandate Payment and payment amount is zero.**********
+</p></td></tr>
+<tr><td><p>Status     : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Set Policy Payment amt Zero.**********************************</p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :400</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":"SPG402","message":"Payment amount should be greater than INR 0."}]}</p></td></tr>
+<tr><td><p>
+******** Test Scenario  :  Verify Error throws when mandate type eMandate Payment and payment amount is greater than zero.**********
+</p></td></tr>
+<tr><td><p>Status     : 200</p></td></tr>
+<tr><td><p>Response   : {"code":"PROP100","desc":"Proposal Accepted","errorMessage":null}</p></td></tr>
+<tr><td><p>*********************Set Policy Payment amt Zero.**********************************</p></td></tr>
+<tr><td><p>*********************Payment initiate.**********************************</p></td></tr>
+<tr><td><p>status code   :400</p></td></tr>
+<tr><td><p>Initiate Payment response body	: {"status":"FAILED","errors":[{"code":null,"message":"E-mandate amount should be INR 0."}]}</p></td></tr>
+</table>

@@ -1,0 +1,72 @@
+{
+"insured": {
+"addresses": [{
+"addressLine1": " Square Mall",
+"addressLine2": "Pocket B",
+"addressLine3": "Kunj, New Delhi-110070",
+"addressType": "RESIDENCE",
+"city": "New Delhi",
+"country": "India",
+"pincode": "110070"
+}],
+        "permanentAddress": {
+            "addressType": "RESIDENCE",
+            "addressLine1": "WO DURASAMY 1/179 SOUTH Street, NAVAMARATHUPATTI SUVLERUMBU DINDIGUL",
+            "addressLine2": null,
+            "addressLine3": null,
+            "addressLine4": null,
+            "country": "India",
+            "state": "Karnataka",
+            "city": null,
+            "pincode": "500044"
+        },
+"emailId": "dhasalswapnil88@yahoo.com",
+"dateOfBirth": "2000-10-10",
+"mobile": "7977915929",
+"firstName": "Jone's (MG)",
+"gender": "Male",
+"partyRefId": "test@gmail.com"
+},
+"paymentInfo": {
+"siOpted": false,
+"transactionId": "33440632459",
+"vendor": "ONEMG"
+},
+"policyInfo": {
+"masterPolicyNumber": "1MGG00000000002",
+"policyNumber": "MG1990000000095",
+                        "transactionType": "NB",
+
+"purchaseDateTime": "2020-01-07",
+"startDate": "2020-01-08",
+"coiDispatchDateTime": "2020-01-08",
+"planCode": "1MG-0001",
+"premium": {
+"paymentFrequency": "SINGLE",
+"initialPremium": 149
+},
+"coverages": [
+{
+"code": "1MG-0001-DB",
+"sumAssured": 100000
+}
+],
+"nominees": [
+{
+ "firstName": "Test",
+                "middleName": null,
+                "lastName": "Test",
+                "gender": "Female",
+                "dateOfBirth": null,
+                "relationOfNominee": "WIFE",
+                "nominationPercentage": 100,
+                "address": null,
+                "emailId": null,
+                "mobile": "9898989898",
+                "age": 30
+}
+]
+}
+}
+
+

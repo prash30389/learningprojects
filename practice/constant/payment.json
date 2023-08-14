@@ -1,0 +1,72 @@
+{
+	"vendorCode":{
+	
+			"mobikwik":"MOBIKWIK",
+			"paytm":"PAYTM_GRP",
+			"cointab":"COINTAB",
+			"onemg":"ONEMG",
+			"flipkart":"FLIPKART",
+			"firstcry":"FIRSTCRY",
+			"indialends":"INDIALENDS",
+			"fundsIndia":"FUNDSINDIA",
+			"policyBazaar":"POLICYBAZAAR",
+			"razorpay":"RAZORPAY"
+	},
+	
+	"payin":{
+	
+		"paymentStatus":"SUCCESSFUL",
+		"paymentTypeNewBusiness":"NB",
+		"paymentTypeReinstatement":"CR",
+		"paymentTypeRenewal":"RP",
+		"paymentTypeCounterOffer":"CO"
+	},
+
+	"payout":{
+		
+			"suspense":{
+			"suspenseTypeRenewal":"RENEWAL",
+		    "suspenseTypeNewBusiness":"NB",
+		    "suspenseTypeReinstatement":"REINSTATEMENT"
+		},
+		
+		"payoutStatus":"REFUNDED",
+	    "payoutTypeFreelook":"FL",
+	    "payoutTypeSuspense":"SU",
+	    "payoutTypeReject":"RJ",
+	    "payoutTypeSurrender":"SR",
+	    "payoutTypeRiderSurrender":"RSR",
+	    "payoutTypeReinstatementReject":"URPV",
+	    "payoutNullAndVoid":"NV",
+	    "payoutTypeRiderFreelook":"FLAR",
+	    "suspenseAmountAfterPayout":0.0,
+	    "patchApiStatus":"true"
+	},
+	
+	"payinValidations":{
+	
+		"emptyVendorCode":"Provided vendor code is not available",
+		"emptyPaymentMode":"PaymentMode cannot be empty while registering payment",
+		"paymentAmountZero":"Payment amount should be greater than INR 0.",
+		"mismatchPaymentType":"Mismatch in payment type present in request and due for the requested payment",
+		"incorrectDueDate":"Due Date is not correct",
+		"dueNotFound":"Due not found",
+		"emptyMobileAndEmail":"Email or MobileNumber can not be empty"
+		
+	},
+	
+	"payoutValidations":{
+		"emptySuspenseType":"Partial Payout Suspense Type not specified",
+		"invalidSuspenseType":"Invalid Payout Type specified for Partial Payout",
+		"noSuspenseBalance":"Not enough balance in Suspense"
+	},
+	
+	
+	"ResponseStatusCode":{
+	
+		"statusCode":400
+	
+	}
+
+
+}
